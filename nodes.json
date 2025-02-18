@@ -1,0 +1,588 @@
+{
+    "nodes": {
+        "Switzerland": {
+            "userType": "programmer",
+            "databases": "PIRS, MIDAS",
+            "betweenness_centrality": 0.08220231768774158,
+            "outdegree": 49
+        },
+        "Belize": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Burundi": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Congo": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Georgia": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.0006964182588690858,
+            "outdegree": 4
+        },
+        "Guinea": {
+            "betweenness_centrality": 0.00023060153552099388,
+            "outdegree": 1
+        },
+        "Kenya": {
+            "betweenness_centrality": 8.245765212927415e-05,
+            "outdegree": 1
+        },
+        "Kyrgyzstan": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Liberia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Mauritania": {
+            "betweenness_centrality": 0.00023060153552099388,
+            "outdegree": 1
+        },
+        "Paraguay": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Sierra Leone": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Somalia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "South Sudan": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Eswatini": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Tajikistan": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Tanzania": {
+            "betweenness_centrality": 8.245765212927415e-05,
+            "outdegree": 1
+        },
+        "Uganda": {
+            "betweenness_centrality": 8.245765212927415e-05,
+            "outdegree": 1
+        },
+        "Zambia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Zimbabwe": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Burkina Faso": {
+            "betweenness_centrality": 0.00023060153552099388,
+            "outdegree": 1
+        },
+        "Cambodia": {
+            "betweenness_centrality": 8.245765212927415e-05,
+            "outdegree": 1
+        },
+        "Central African Republic": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Chad": {
+            "betweenness_centrality": 8.245765212927415e-05,
+            "outdegree": 1
+        },
+        "Djibouti": {
+            "betweenness_centrality": 8.245765212927415e-05,
+            "outdegree": 1
+        },
+        "Ecuador": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.00030299504811906984,
+            "outdegree": 2
+        },
+        "Haiti": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Iraq": {
+            "betweenness_centrality": 8.245765212927415e-05,
+            "outdegree": 1
+        },
+        "Madagascar": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Malawi": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Mali": {
+            "betweenness_centrality": 0.00023060153552099388,
+            "outdegree": 1
+        },
+        "Marshall Islands": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Timor Leste": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Togo": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Trinidad and Tobago": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Gambia": {
+            "userType": "switcher",
+            "databases": "WAPIS, PISCES, MIDAS",
+            "betweenness_centrality": 0.003937948433450313,
+            "outdegree": 4
+        },
+        "Ghana": {
+            "userType": "switcher",
+            "databases": "WAPIS, PISCES, MIDAS",
+            "betweenness_centrality": 0.003937948433450313,
+            "outdegree": 4
+        },
+        "Niger": {
+            "userType": "switcher",
+            "databases": "WAPIS, PISCES, MIDAS",
+            "betweenness_centrality": 0.003937948433450313,
+            "outdegree": 4
+        },
+        "Senegal": {
+            "userType": "switcher",
+            "databases": "WAPIS, PISCES, MIDAS",
+            "betweenness_centrality": 0.003937948433450313,
+            "outdegree": 4
+        },
+        "Serbia": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.0006964182588690858,
+            "outdegree": 4
+        },
+        "Bosnia and Herzegovina": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.004559161879211362,
+            "outdegree": 5
+        },
+        "Albania": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.0006964182588690858,
+            "outdegree": 4
+        },
+        "Montenegro": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.0006964182588690858,
+            "outdegree": 4
+        },
+        "North Macedonia": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.004559161879211362,
+            "outdegree": 5
+        },
+        "Armenia": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.0006964182588690858,
+            "outdegree": 4
+        },
+        "Azerbaijan": {
+            "userType": "switcher",
+            "databases": "WAPIS, MIDAS",
+            "betweenness_centrality": 7.520481310803893e-05,
+            "outdegree": 3
+        },
+        "Belarus": {
+            "userType": "switcher",
+            "databases": "WAPIS, MIDAS",
+            "betweenness_centrality": 7.520481310803893e-05,
+            "outdegree": 3
+        },
+        "Ukraine": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.0006964182588690858,
+            "outdegree": 4
+        },
+        "Turkey": {
+            "userType": "switcher",
+            "databases": "IES, WAPIS, MIDAS",
+            "betweenness_centrality": 0.0006964182588690858,
+            "outdegree": 4
+        },
+        "Nigeria": {
+            "userType": "programmer",
+            "databases": "MIDAS",
+            "betweenness_centrality": 0.08418063775247306,
+            "outdegree": 42
+        },
+        "France": {
+            "userType": "programmer",
+            "databases": "WAPIS",
+            "betweenness_centrality": 0.028043035132355603,
+            "outdegree": 27
+        },
+        "Benin": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Cabo Verde": {
+            "betweenness_centrality": 0.00014814388339171974,
+            "outdegree": 1
+        },
+        "Guinea-Bissau": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Republic of Ivory Coast": {
+            "betweenness_centrality": 0.00014814388339171974,
+            "outdegree": 1
+        },
+        "United States of America": {
+            "userType": "programmer",
+            "databases": "PISCES, CHIP, BITMAP, CHIS, IBIS",
+            "betweenness_centrality": 0.40840261296853647,
+            "outdegree": 54
+        },
+        "Afghanistan": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Bangladesh": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Cameroon": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Denmark": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Ethiopia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Jordan": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Maldives": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Malta": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Nepal": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Pakistan": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Panama": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Philippines": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Thailand": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Yemen": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Belgium": {
+            "userType": "programmer",
+            "databases": "EU DATABASES, IES",
+            "betweenness_centrality": 0.32239720403606575,
+            "outdegree": 59
+        },
+        "Austria": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Bulgaria": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Croatia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Cyprus": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Czechia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Estonia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Finland": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Germany": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Greece": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Hungary": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Italy": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Latvia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Lithuania": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Luxembourg": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Netherlands": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Poland": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Portugal": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Romania": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Slovakia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Slovenia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Spain": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Sweden": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Australia": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.002966109214815165,
+            "outdegree": 5
+        },
+        "Canada": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.002966109214815165,
+            "outdegree": 5
+        },
+        "Moldova": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Norway": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Liechtenstein": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Colombia": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 2
+        },
+        "Iceland": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Monaco": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Andorra": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Qatar": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Israel": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 2
+        },
+        "San Marino": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Kosovo": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Mexico": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 2
+        },
+        "Chile": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Republic of Korea": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Japan": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "United Arab Emirates": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Brazil": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "China": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Russia": {
+            "userType": "switcher",
+            "databases": "IES",
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Costa Rica": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Peru": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "El Salvador": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Honduras": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Dominican Republic": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Bahamas": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Guatemala": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "Jamaica": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 1
+        },
+        "United Kingdom": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 4
+        },
+        "New Zealand": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 4
+        },
+        "Ireland": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        }
+    }
+}

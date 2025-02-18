@@ -1,0 +1,2972 @@
+{
+    "edges": [
+        {
+            "source": "Switzerland",
+            "target": "Belize",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Burundi",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Congo",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Georgia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Guinea",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Kenya",
+            "database": "PIRS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Kyrgyzstan",
+            "database": "PIRS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Liberia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Mauritania",
+            "database": "PIRS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Paraguay",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Sierra Leone",
+            "database": "PIRS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Somalia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "South Sudan",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Eswatini",
+            "database": "PIRS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Tajikistan",
+            "database": "PIRS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Tanzania",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Uganda",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Zambia",
+            "database": "PIRS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Zimbabwe",
+            "database": "PIRS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Burkina Faso",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Cambodia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Central African Republic",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Chad",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Djibouti",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Ecuador",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Haiti",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Iraq",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Madagascar",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Malawi",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Mali",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Marshall Islands",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Timor Leste",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Togo",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Trinidad and Tobago",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Gambia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Ghana",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Niger",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Senegal",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Serbia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Bosnia and Herzegovina",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Albania",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Montenegro",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "North Macedonia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Armenia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Azerbaijan",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Belarus",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Ukraine",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Turkey",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "IOM",
+            "weight": 1
+        },
+        {
+            "source": "Switzerland",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Georgia",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Georgia",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Georgia",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Georgia",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Guinea",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Kenya",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Mauritania",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Tanzania",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Uganda",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Burkina Faso",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Cambodia",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Chad",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Djibouti",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ecuador",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ecuador",
+            "target": "United States of America",
+            "database": "CHIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Iraq",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Mali",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Gambia",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Gambia",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Gambia",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Gambia",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ghana",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ghana",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ghana",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ghana",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Niger",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Niger",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Niger",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Niger",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Senegal",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Senegal",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Senegal",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Senegal",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Serbia",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Serbia",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Serbia",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Serbia",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Bosnia and Herzegovina",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Bosnia and Herzegovina",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Bosnia and Herzegovina",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Bosnia and Herzegovina",
+            "target": "United States of America",
+            "database": "BITMAP",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Bosnia and Herzegovina",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Albania",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Albania",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Albania",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Albania",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Montenegro",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Montenegro",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Montenegro",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Montenegro",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "North Macedonia",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "North Macedonia",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "North Macedonia",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "North Macedonia",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "North Macedonia",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Armenia",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Armenia",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Armenia",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Armenia",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Azerbaijan",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Azerbaijan",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Azerbaijan",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Belarus",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Belarus",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Belarus",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ukraine",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ukraine",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ukraine",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ukraine",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Turkey",
+            "target": "Switzerland",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Turkey",
+            "target": "Nigeria",
+            "database": "MIDAS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Turkey",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Turkey",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Belize",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Burkina Faso",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Burundi",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Cambodia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Central African Republic",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Chad",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Congo",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Djibouti",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Ecuador",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Guinea",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Haiti",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Iraq",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Liberia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Madagascar",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Malawi",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Mali",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Marshall Islands",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Paraguay",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Somalia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "South Sudan",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Tanzania",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Timor Leste",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Togo",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Trinidad and Tobago",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Uganda",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Gambia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Ghana",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Niger",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Senegal",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Serbia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Bosnia and Herzegovina",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Albania",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Montenegro",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "North Macedonia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Armenia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Azerbaijan",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Georgia",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Belarus",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Ukraine",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Turkey",
+            "database": "MIDAS",
+            "UserType": "programmer",
+            "organization": "ECOWAS",
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "France",
+            "database": "WAPIS",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Benin",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Burkina Faso",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Cabo Verde",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Guinea-Bissau",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Guinea",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Republic of Ivory Coast",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Liberia",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Mali",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Mauritania",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Sierra Leone",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Togo",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Gambia",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Ghana",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Niger",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Nigeria",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Senegal",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Serbia",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Bosnia and Herzegovina",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Albania",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Montenegro",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "North Macedonia",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Armenia",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Azerbaijan",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Georgia",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Belarus",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Ukraine",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "France",
+            "target": "Turkey",
+            "database": "WAPIS",
+            "UserType": "programmer",
+            "organization": "Interpol",
+            "weight": 1
+        },
+        {
+            "source": "Cabo Verde",
+            "target": "United States of America",
+            "database": "CHIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Republic of Ivory Coast",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Afghanistan",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Bangladesh",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Bosnia and Herzegovina",
+            "database": "BITMAP",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Burkina Faso",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Cambodia",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Cameroon",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Chad",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Denmark",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Djibouti",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Ethiopia",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Guinea",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Iraq",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Republic of Ivory Coast",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Jordan",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Kenya",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "North Macedonia",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Maldives",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Mali",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Malta",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Mauritania",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Nepal",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Pakistan",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Panama",
+            "database": "BITMAP",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Philippines",
+            "database": "BITMAP",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Tanzania",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Thailand",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Uganda",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Yemen",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Ghana",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Niger",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Nigeria",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Senegal",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Gambia",
+            "database": "PISCES",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Belgium",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Mexico",
+            "database": "CHIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Ecuador",
+            "database": "CHIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Costa Rica",
+            "database": "BITMAP",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Colombia",
+            "database": "BITMAP",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Peru",
+            "database": "BITMAP",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "El Salvador",
+            "database": "CHIP",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Honduras",
+            "database": "CHIP",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Dominican Republic",
+            "database": "CHIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Bahamas",
+            "database": "CHIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Cabo Verde",
+            "database": "CHIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Guatemala",
+            "database": "CHIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Jamaica",
+            "database": "CHIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "United Kingdom",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Bulgaria",
+            "database": "IBIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Croatia",
+            "database": "IBIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Israel",
+            "database": "IBIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Poland",
+            "database": "IBIS",
+            "UserType": "programmer",
+            "organization": "United States",
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Australia",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Canada",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "New Zealand",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Afghanistan",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Bangladesh",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Cameroon",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Denmark",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Ethiopia",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Jordan",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Maldives",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Malta",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Nepal",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Pakistan",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Panama",
+            "target": "United States of America",
+            "database": "BITMAP",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Philippines",
+            "target": "United States of America",
+            "database": "BITMAP",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Thailand",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Yemen",
+            "target": "United States of America",
+            "database": "PISCES",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Austria",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Bulgaria",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Croatia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Cyprus",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Czechia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Denmark",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Estonia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Finland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "France",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Germany",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Greece",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Hungary",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Italy",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Latvia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Lithuania",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Luxembourg",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Malta",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Netherlands",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Poland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Portugal",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Romania",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Slovakia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Slovenia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Spain",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Sweden",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Australia",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Canada",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Georgia",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Moldova",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Norway",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Serbia",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Liechtenstein",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Ukraine",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Albania",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Bosnia and Herzegovina",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Colombia",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Montenegro",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "United States of America",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Iceland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "North Macedonia",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Switzerland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Monaco",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Andorra",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Qatar",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Israel",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "San Marino",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Kosovo",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Mexico",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Armenia",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Chile",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Republic of Korea",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Japan",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Ecuador",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Turkey",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "United Arab Emirates",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Brazil",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "China",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Russia",
+            "database": "IES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Ireland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Bulgaria",
+            "target": "United States of America",
+            "database": "IBIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Croatia",
+            "target": "United States of America",
+            "database": "IBIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Poland",
+            "target": "United States of America",
+            "database": "IBIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "Belgium",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "Canada",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "United States of America",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "New Zealand",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "United Kingdom",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "Belgium",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "Australia",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "United States of America",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "New Zealand",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "United Kingdom",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Moldova",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Norway",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Liechtenstein",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Colombia",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Colombia",
+            "target": "United States of America",
+            "database": "BITMAP",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Iceland",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Monaco",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Andorra",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Qatar",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Israel",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Israel",
+            "target": "United States of America",
+            "database": "IBIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "San Marino",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Kosovo",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Mexico",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Mexico",
+            "target": "United States of America",
+            "database": "CHIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Chile",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Republic of Korea",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Japan",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United Arab Emirates",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Brazil",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "China",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Belgium",
+            "database": "IES",
+            "UserType": "switcher",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Costa Rica",
+            "target": "United States of America",
+            "database": "BITMAP",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Peru",
+            "target": "United States of America",
+            "database": "BITMAP",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "El Salvador",
+            "target": "United States of America",
+            "database": "CHIP",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Honduras",
+            "target": "United States of America",
+            "database": "CHIP",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Dominican Republic",
+            "target": "United States of America",
+            "database": "CHIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Bahamas",
+            "target": "United States of America",
+            "database": "CHIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Guatemala",
+            "target": "United States of America",
+            "database": "CHIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "Jamaica",
+            "target": "United States of America",
+            "database": "CHIS",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "United States of America",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Australia",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Canada",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "New Zealand",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "New Zealand",
+            "target": "Australia",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "New Zealand",
+            "target": "Canada",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "New Zealand",
+            "target": "United Kingdom",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        },
+        {
+            "source": "New Zealand",
+            "target": "United States of America",
+            "database": "M5",
+            "UserType": "user",
+            "organization": null,
+            "weight": 1
+        }
+    ]
+}
