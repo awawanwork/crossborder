@@ -1,10 +1,14 @@
 {
     "nodes": {
         "United States of America": {
+            "userType": "programmer",
+            "databases": "CHIS, BITMAP, CHIP, IBIS, PISCES",
             "betweenness_centrality": 0.01792717086834734,
             "outdegree": 5
         },
         "Belgium": {
+            "userType": "programmer",
+            "databases": "IES, EU DATABASES",
             "betweenness_centrality": 0.12605042016806722,
             "outdegree": 33
         },
@@ -13,10 +17,14 @@
             "outdegree": 4
         },
         "Australia": {
+            "userType": "switcher",
+            "databases": "IES",
             "betweenness_centrality": 0.01792717086834734,
             "outdegree": 5
         },
         "Canada": {
+            "userType": "switcher",
+            "databases": "IES",
             "betweenness_centrality": 0.01792717086834734,
             "outdegree": 5
         },
@@ -57,6 +65,8 @@
             "outdegree": 0
         },
         "France": {
+            "userType": "programmer",
+            "databases": "WAPIS",
             "betweenness_centrality": 0.0,
             "outdegree": 0
         },
@@ -125,18 +135,26 @@
             "outdegree": 0
         },
         "Norway": {
+            "userType": "switcher",
+            "databases": "IES",
             "betweenness_centrality": 0.0,
             "outdegree": 0
         },
         "Liechtenstein": {
+            "userType": "switcher",
+            "databases": "IES",
             "betweenness_centrality": 0.0,
             "outdegree": 0
         },
         "Iceland": {
+            "userType": "switcher",
+            "databases": "IES",
             "betweenness_centrality": 0.0,
             "outdegree": 0
         },
         "Switzerland": {
+            "userType": "programmer",
+            "databases": "MIDAS, PIRS",
             "betweenness_centrality": 0.0,
             "outdegree": 0
         },

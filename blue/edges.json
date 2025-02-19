@@ -5,7 +5,7 @@
             "target": "Belgium",
             "database": "AP/PNR",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -13,7 +13,7 @@
             "target": "United Kingdom",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -21,7 +21,7 @@
             "target": "Australia",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -29,7 +29,7 @@
             "target": "Canada",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -37,7 +37,7 @@
             "target": "New Zealand",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -245,7 +245,7 @@
             "target": "Australia",
             "database": "AP/PNR",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -253,7 +253,7 @@
             "target": "Canada",
             "database": "AP/PNR",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -277,7 +277,7 @@
             "target": "United States of America",
             "database": "AP/PNR",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -309,7 +309,7 @@
             "target": "United States of America",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -317,7 +317,7 @@
             "target": "Australia",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -325,7 +325,7 @@
             "target": "Canada",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -333,7 +333,7 @@
             "target": "New Zealand",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -341,7 +341,7 @@
             "target": "Belgium",
             "database": "AP/PNR",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -349,7 +349,7 @@
             "target": "Canada",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -357,7 +357,7 @@
             "target": "United States of America",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -365,7 +365,7 @@
             "target": "New Zealand",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -373,7 +373,7 @@
             "target": "United Kingdom",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -381,7 +381,7 @@
             "target": "Belgium",
             "database": "AP/PNR",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -389,7 +389,7 @@
             "target": "Australia",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -397,7 +397,7 @@
             "target": "United States of America",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -405,7 +405,7 @@
             "target": "New Zealand",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -413,7 +413,7 @@
             "target": "United Kingdom",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -421,7 +421,7 @@
             "target": "Australia",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -429,7 +429,7 @@
             "target": "Canada",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -437,7 +437,7 @@
             "target": "United Kingdom",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         },
         {
@@ -445,7 +445,7 @@
             "target": "United States of America",
             "database": "M5",
             "UserType": "user",
-            "organization": NaN,
+            "organization": null,
             "weight": 1
         }
     ]
