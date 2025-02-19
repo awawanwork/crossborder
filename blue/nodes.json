@@ -1,0 +1,148 @@
+{
+    "nodes": {
+        "United States of America": {
+            "betweenness_centrality": 0.01792717086834734,
+            "outdegree": 5
+        },
+        "Belgium": {
+            "betweenness_centrality": 0.12605042016806722,
+            "outdegree": 33
+        },
+        "United Kingdom": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 4
+        },
+        "Australia": {
+            "betweenness_centrality": 0.01792717086834734,
+            "outdegree": 5
+        },
+        "Canada": {
+            "betweenness_centrality": 0.01792717086834734,
+            "outdegree": 5
+        },
+        "New Zealand": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 4
+        },
+        "Austria": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Bulgaria": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Croatia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Cyprus": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Czechia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Denmark": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Estonia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Finland": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "France": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Germany": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Greece": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Hungary": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Italy": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Latvia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Lithuania": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Luxembourg": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Malta": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Netherlands": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Poland": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Portugal": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Romania": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Slovakia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Slovenia": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Spain": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Sweden": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Norway": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Liechtenstein": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Iceland": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Switzerland": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        },
+        "Ireland": {
+            "betweenness_centrality": 0.0,
+            "outdegree": 0
+        }
+    }
+}

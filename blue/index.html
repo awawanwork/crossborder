@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Map Nodes</title>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDWdP4fiZxZIBfiDDhYcaS-mxZEjNk884&callback=initMap&loading=async"></script>
+    <script>
+        let map;
+        let geocoder;
+        let nodes = {};
+        let edges = [];
+        let polylines = [];
+
+        const userTypeColors = {
+            "programmer": "#FFA500", // Orange
+            "switcher": "#808080",   // Gray
+            "default": "#000000"    // Black (fallback)
+        };
+
+        const databaseColors = {
+            "PIRS": "#FF6347",
+            "MIDAS": "#D2042D",
+            "WAPIS": "#93021F",
+            "PISCES": "#32CD32",
+            "IES": "#228B22",
+            "BITMAP": "#006400",
+            "CHIS": "#008000",
+            "IBIS": "#00FF00",
+            "AP/PNR": "#1E90FF",
+            "M5": "#0000CD",
+            "EU DATABASES": "#00008B",
+            "default": "#000000"
+        };
+        
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 2,
+                center: { lat: 20, lng: 0 },
+            });
+            geocoder = new google.maps.Geocoder();
+            fetchData();
+        }
+        
+        function fetchData() {
+            fetch('nodes.json')
+                .then(response => response.json())
+                .then(data => {
+                    nodes = data.nodes;
+                    return fetch('edges.json');
+                })
+                .then(response => response.json())
+                .then(data => {
+                    edges = data.edges;
+                    plotNodesAndEdges();
+                })
+                .catch(error => console.error('Error loading data:', error));
+        }
+        
+        function plotNodesAndEdges() {
+            let nodeLocations = {};
+            let promises = Object.keys(nodes).map(country => {
+                return new Promise((resolve) => {
+                    geocoder.geocode({ 'address': country }, function (results, status) {
+                        if (status === 'OK') {
+                            let location = results[0].geometry.location;
+                            nodeLocations[country] = location;
+                            let userType = nodes[country]?.userType || "default";
+                            let outdegree = nodes[country]?.outdegree || 1; // Default to 1 if missing
+                            let radius = Math.max(20000, (outdegree + 1) * 15000);
+                            
+                            new google.maps.Circle({
+                                strokeColor: userTypeColors[userType],
+                                strokeOpacity: 1.0,
+                                strokeWeight: 2,
+                                fillColor: userTypeColors[userType],
+                                fillOpacity: 0.6,
+                                map: map,
+                                center: location,
+                                // radius: 50000
+                                radius: radius
+                            });
+                        } else {
+                            console.warn("Geocode failed for", country, "with status", status);
+                        }
+                        resolve();
+                    });
+                });
+            });
+
+            Promise.all(promises).then(() => {
+                drawEdges(nodeLocations);
+                createLegend();
+            });
+        }
+        
+        function drawEdges(nodeLocations) {
+            polylines = edges.map(edge => {
+                let source = nodeLocations[edge.source];
+                let target = nodeLocations[edge.target];
+                let dbType = edge.database || "default";
+                
+                if (source && target) {
+                    let polyline = new google.maps.Polyline({
+                        path: [source, target],
+                        geodesic: false,
+                        strokeColor: databaseColors[dbType],
+                        strokeOpacity: 1.0,
+                        strokeWeight: 2,
+                        map: map
+                    });
+                    polyline.databaseType = dbType; // Store the database type in the object
+                    return polyline;
+                }
+            }).filter(Boolean);
+        }
+
+
+        function createLegend() {
+            let legend = document.getElementById('legend');
+            legend.innerHTML = '<strong>Database Legend</strong><br>';
+
+            Object.keys(databaseColors).forEach(db => {
+                if (db !== "default") {
+                    let color = databaseColors[db];
+                    let div = document.createElement('div');
+                    
+                    let checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.id = 'checkbox-' + db.replace(/\s+/g, '-').replace(/\//g, '-');
+                    checkbox.value = db;
+                    checkbox.checked = true;  // Set checked here
+                    
+                    let label = document.createElement('label');
+                    label.htmlFor = checkbox.id;
+                    label.innerHTML = `<span style="color:${color};"> &#9632; ${db}</span>`;
+                    
+                    div.appendChild(checkbox);
+                    div.appendChild(label);
+                    legend.appendChild(div);
+                    
+                    // Add event listener after checkbox is appended to DOM
+                    checkbox.addEventListener('change', toggleEdges);
+                }
+            });
+        }
+
+        function toggleEdges() {
+            let checkedDatabases = Array.from(document.querySelectorAll('#legend input:checked')).map(el => el.value);
+            polylines.forEach(polyline => {
+                polyline.setMap(checkedDatabases.includes(polyline.databaseType) ? map : null);
+            });
+        }
+    </script>
+    <style>
+        #legend {
+            background: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        #legend div {
+            margin-bottom: 3px;
+        }
+        #legend label {
+            margin-left: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 600px;"></div>
+    <div id="legend"></div>
+</body>
+</html>

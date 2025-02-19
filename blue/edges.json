@@ -1,0 +1,452 @@
+{
+    "edges": [
+        {
+            "source": "United States of America",
+            "target": "Belgium",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "United Kingdom",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Australia",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "Canada",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "United States of America",
+            "target": "New Zealand",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Austria",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Bulgaria",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Croatia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Cyprus",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Czechia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Denmark",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Estonia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Finland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "France",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Germany",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Greece",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Hungary",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Italy",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Latvia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Lithuania",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Luxembourg",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Malta",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Netherlands",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Poland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Portugal",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Romania",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Slovakia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Slovenia",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Spain",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Sweden",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Australia",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Canada",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Norway",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Liechtenstein",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "United States of America",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Iceland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Switzerland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Ireland",
+            "database": "EU DATABASES",
+            "UserType": "programmer",
+            "organization": "European Union",
+            "weight": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "United States of America",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Australia",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Canada",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "New Zealand",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "Belgium",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "Canada",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "United States of America",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "New Zealand",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Australia",
+            "target": "United Kingdom",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "Belgium",
+            "database": "AP/PNR",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "Australia",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "United States of America",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "New Zealand",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "Canada",
+            "target": "United Kingdom",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "New Zealand",
+            "target": "Australia",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "New Zealand",
+            "target": "Canada",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "New Zealand",
+            "target": "United Kingdom",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        },
+        {
+            "source": "New Zealand",
+            "target": "United States of America",
+            "database": "M5",
+            "UserType": "user",
+            "organization": NaN,
+            "weight": 1
+        }
+    ]
+}
