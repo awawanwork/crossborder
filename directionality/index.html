@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Migration Graph Visualization</title>
+    <style>
+        #container {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #ccc;
+            background: #f9f9f9;
+        }
+        .tooltip {
+            position: absolute;
+            padding: 10px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            pointer-events: none;
+            display: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <div class="tooltip"></div>
+
+    <!-- Core Sigma.js and required plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/sigma.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.parsers.json.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.plugins.animate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.layout.forceAtlas2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.customEdgeShapes.min.js"></script>
+
+    <script>
+        // Function to transform the JSON data into Sigma format
+        function transformData(rawData) {
+            return {
+                nodes: rawData.nodes.map(node => ({
+                    id: node.key,
+                    label: node.key,
+                    x: node.attributes.x,
+                    y: node.attributes.y,
+                    size: node.attributes.size,
+                    color: node.attributes.color
+                })),
+                edges: rawData.edges.map(edge => ({
+                    id: edge.key,
+                    source: edge.source,
+                    target: edge.target,
+                    color: edge.attributes.color,
+                    size: edge.attributes.weight,
+                    type: 'arrow'
+                }))
+            };
+        }
+
+        // Load and initialize the graph
+        async function initializeGraph() {
+            try {
+                const response = await fetch('graph.json');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const rawData = await response.json();
+                const graphData = transformData(rawData);
+
+                // Initialize sigma instance with canvas renderer
+                const sigmaInstance = new sigma({
+                    container: 'container',
+                    type: 'canvas',
+                    settings: {
+                        defaultNodeColor: '#666',
+                        defaultEdgeColor: '#ccc',
+                        edgeColor: 'default',
+                        minNodeSize: 5,
+                        maxNodeSize: 20,
+                        minEdgeSize: 1,
+                        maxEdgeSize: 5,
+                        labelSize: 'proportional',
+                        labelSizeRatio: 1.5,
+                        labelThreshold: 5,
+                        drawEdges: true,
+                        drawEdgeLabels: true,
+                        zoomMin: 0.02,
+                        zoomMax: 2,
+                        nodeBorderSize: 1,
+                        defaultEdgeType: 'arrow',
+                        defaultEdgeArrowSize: 8,
+                        edgeHoverSizeRatio: 2,
+                        // Canvas-specific settings
+                        batchEdgesDrawing: true,
+                        hideEdgesOnMove: true
+                    }
+                });
+
+                // Add the graph data
+                graphData.nodes.forEach(node => {
+                    sigmaInstance.graph.addNode(node);
+                });
+                graphData.edges.forEach(edge => {
+                    sigmaInstance.graph.addEdge(edge);
+                });
+
+                // Add hover interactions
+                const tooltip = document.querySelector('.tooltip');
+                
+                sigmaInstance.bind('overNode', function(e) {
+                    const node = e.data.node;
+                    tooltip.style.display = 'block';
+                    tooltip.style.left = (e.data.captor.clientX + 10) + 'px';
+                    tooltip.style.top = (e.data.captor.clientY + 10) + 'px';
+                    tooltip.innerHTML = `
+                        <strong>${node.label}</strong><br>
+                        X: ${node.x.toFixed(2)}<br>
+                        Y: ${node.y.toFixed(2)}<br>
+                        Size: ${node.size}
+                    `;
+                });
+
+                sigmaInstance.bind('outNode', function(e) {
+                    tooltip.style.display = 'none';
+                });
+
+                // Refresh the display
+                sigmaInstance.refresh();
+
+                // Optional: Start ForceAtlas2 layout for a short time to improve layout
+                sigmaInstance.startForceAtlas2({
+                    worker: true,
+                    barnesHutOptimize: false,
+                    linLogMode: true,
+                    adjustSizes: false,
+                    iterationsPerRender: 10,
+                    scalingRatio: 10
+                });
+
+                // Stop the layout after 2 seconds
+                setTimeout(() => {
+                    sigmaInstance.stopForceAtlas2();
+                }, 2000);
+
+            } catch (error) {
+                console.error('Error loading the graph data:', error);
+                document.getElementById('container').innerHTML = 'Error loading the graph data. Please check the console for details.';
+            }
+        }
+
+        // Initialize the graph when the page loads
+        window.addEventListener('load', initializeGraph);
+    </script>
+</body>
+</html>
