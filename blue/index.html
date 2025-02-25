@@ -13,9 +13,9 @@
         let polylines = [];
 
         const userTypeColors = {
-            "programmer": "#FFA500", // Orange
+            "programmer": "#808080", //"#FFA500", // Orange
             "switcher": "#808080",   // Gray
-            "default": "#000000"    // Black (fallback)
+            "default": "#808080"   //"#000000"    // Black (fallback)
         };
 
         const databaseColors = {
@@ -33,11 +33,25 @@
             "default": "#000000"
         };
         
+
         function initMap() {
             map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 2,
                 center: { lat: 20, lng: 0 },
+                restriction: {
+                    latLngBounds: {
+                        north: 85,  // Top boundary (close to North Pole)
+                        south: -85, // Bottom boundary (close to South Pole)
+                        west: -179.99, // Left boundary (close to -180 longitude)
+                        east: 179.99  // Right boundary (close to 180 longitude)
+                    },
+                    strictBounds: true  // Ensures the map does not pan outside
+                },
+                streetViewControl: false,  // Removes Street View
+                mapTypeControl: false,  // Removes map type toggle
+                gestureHandling: "greedy"  // Controls scrolling behavior
             });
+
             geocoder = new google.maps.Geocoder();
             fetchData();
         }

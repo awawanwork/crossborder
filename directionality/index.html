@@ -128,18 +128,13 @@
 
                 // Optional: Start ForceAtlas2 layout for a short time to improve layout
                 sigmaInstance.startForceAtlas2({
-                    worker: true,
-                    barnesHutOptimize: false,
-                    linLogMode: true,
-                    adjustSizes: false,
-                    iterationsPerRender: 10,
-                    scalingRatio: 10
-                });
-
-                // Stop the layout after 2 seconds
-                setTimeout(() => {
-                    sigmaInstance.stopForceAtlas2();
+ tance.stopForceAtlas2();
                 }, 2000);
+
+                // sigma.plugins.noverlap(sigmaInstance, {
+                //     nodeMargin: 5,
+                //     scaleNodes: 1.05
+                // }).start();
 
             } catch (error) {
                 console.error('Error loading the graph data:', error);
