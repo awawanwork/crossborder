@@ -20,11 +20,70 @@
             display: none;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        .legend-color {
+            width: 20px;
+            height: 5px;
+            margin-right: 10px;
+        }
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .legend-checkbox {
+            margin-right: 8px;
+        }
+        .legend-label {
+            user-select: none;
+        }
     </style>
 </head>
 <body>
     <div id="container"></div>
     <div class="tooltip"></div>
+    <div class="legend">
+        <div class="legend-title">Edges Types</div>
+        <div class="legend-item">
+            <input type="checkbox" id="programmer-to-user" class="legend-checkbox" checked data-source="programmer" data-target="user">
+            <div class="legend-color" style="background-color: #ffee00;"></div>
+            <label for="programmer-to-user" class="legend-label">Programmer → User</label>
+        </div>
+        <div class="legend-item">
+            <input type="checkbox" id="switcher-to-programmer" class="legend-checkbox" checked data-source="switcher" data-target="programmer">
+            <div class="legend-color" style="background-color: #ad5a00;"></div>
+            <label for="switcher-to-programmer" class="legend-label">Switcher → Programmer</label>
+        </div>
+        <div class="legend-item">
+            <input type="checkbox" id="user-to-programmer" class="legend-checkbox" checked data-source="user" data-target="programmer">
+            <div class="legend-color" style="background-color: #ff9e00;"></div>
+            <label for="user-to-programmer" class="legend-label">User → Programmer</label>
+        </div>
+        <div class="legend-item">
+            <input type="checkbox" id="user-to-user" class="legend-checkbox" checked data-source="user" data-target="user">
+            <div class="legend-color" style="background-color: #ba02d6;"></div>
+            <label for="user-to-user" class="legend-label">User → User</label>
+        </div>
+        <div class="legend-item">
+            <input type="checkbox" id="toggle-all" class="legend-checkbox" checked>
+            <label for="toggle-all" class="legend-label"><strong>Toggle All</strong></label>
+        </div>
+    </div>
 
     <!-- Core Sigma.js and required plugins -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/sigma.min.js"></script>
@@ -34,6 +93,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.customEdgeShapes.min.js"></script>
 
 <script>
+    let sigmaInstance;
+    let rawData;
+    
     function latLngToCanvas(lat, lng, width, height) {
         // Convert lat/lng to normalized Mercator projection
         const x = ((lng + 180) / 360) * width;
@@ -43,48 +105,131 @@
         return { x, y };
     }
 
-    // Load and initialize the graph
-    async function initializeGraph() {
-        try {
-            const response = await fetch('graph.json');
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const rawData = await response.json();
+    // Filter edges based on checkbox state
+    function filterEdges() {
+        if (!sigmaInstance || !rawData) return;
+        
+        // Clear current edges
+        sigmaInstance.graph.clear();
+        
+        const width = 1000, height = 800;
+        
+        // Add all nodes back
+        rawData.nodes.forEach(node => {
+            const coords = latLngToCanvas(node.attributes.lat, node.attributes.lng, width, height);
+            sigmaInstance.graph.addNode({
+                id: node.key,
+                label: node.key,
+                x: coords.x,
+                y: coords.y,
+                size: node.attributes.size || 5,
+                color: node.attributes.color || "#000",
+                borderSize: 2,
+                borderColor: "#000",
+            });
+        });
+        
+        // Add only filtered edges
+        rawData.edges.forEach(edge => {
+            let edgeType = "";
+            let color;
             
-            const width = 1000, height = 800; // Adjust size of visualization
-            const graphData = {
-                nodes: rawData.nodes.map(node => {
-                    const coords = latLngToCanvas(node.attributes.lat, node.attributes.lng, width, height);
-                    return {
-                        id: node.key,
-                        label: node.key,
-                        x: coords.x,
-                        y: coords.y,
-                        size: node.attributes.size || 5,
-                        color: node.attributes.color || "#000"
-                    };
-                }),
-                edges: rawData.edges.map(edge => ({
+            if (edge.attributes.source_type === "programmer" && edge.attributes.target_type === "user") {
+                color = "#ffee00";
+                edgeType = "programmer-to-user";
+            } else if (edge.attributes.source_type === "switcher" && edge.attributes.target_type === "programmer") {
+                color = "#ad5a00";
+                edgeType = "switcher-to-programmer";
+            } else if (edge.attributes.source_type === "user" && edge.attributes.target_type === "programmer") {
+                color = "#ff9e00";
+                edgeType = "user-to-programmer";
+            } else if (edge.attributes.source_type === "user" && edge.attributes.target_type === "user") {
+                color = "#ba02d6";
+                edgeType = "user-to-user";
+            } else {
+                color = "#000000";
+                edgeType = "other-edges";
+            }
+            
+            // Check if this edge type should be displayed
+            const checkbox = document.getElementById(edgeType);
+            if (checkbox && checkbox.checked) {
+                sigmaInstance.graph.addEdge({
                     id: edge.key,
                     source: edge.source,
                     target: edge.target,
-                    color: edge.attributes.color || "#aaa",
+                    color: color,
                     size: edge.attributes.weight || 1,
-                    type: 'arrow'  // Ensure directed edges
-                }))
-            };
+                    type: 'arrow'
+                });
+            }
+        });
+        
+        // Refresh the graph
+        sigmaInstance.refresh();
+    }
+    
+    // Add event listeners to checkboxes
+    function setupCheckboxListeners() {
+        const checkboxes = document.querySelectorAll('.legend-checkbox');
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                if (this.id === 'toggle-all') {
+                    // Toggle all checkboxes to match the "Toggle All" state
+                    const isChecked = this.checked;
+                    checkboxes.forEach(cb => {
+                        if (cb.id !== 'toggle-all') {
+                            cb.checked = isChecked;
+                        }
+                    });
+                } else {
+                    // Update "Toggle All" checkbox based on individual checkboxes
+                    const allChecked = Array.from(checkboxes)
+                        .filter(cb => cb.id !== 'toggle-all')
+                        .every(cb => cb.checked);
+                    
+                    document.getElementById('toggle-all').checked = allChecked;
+                }
+                
+                filterEdges();
+            });
+        });
+        
+        // Make the whole legend item clickable (not just the checkbox)
+        const legendItems = document.querySelectorAll('.legend-item');
+        legendItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                if (e.target.type !== 'checkbox') {
+                    const checkbox = this.querySelector('input[type="checkbox"]');
+                    checkbox.checked = !checkbox.checked;
+                    
+                    // Trigger the change event
+                    const event = new Event('change');
+                    checkbox.dispatchEvent(event);
+                }
+            });
+        });
+    }
 
+    // Load and initialize the graph
+    async function initializeGraph() {
+        try {
+            const response = await fetch('graph-v2.json');
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            rawData = await response.json();
+            
             // Initialize sigma instance
-            const sigmaInstance = new sigma({
+            sigmaInstance = new sigma({
                 container: 'container',
                 type: 'canvas',
                 settings: {
                     defaultNodeColor: '#666',
                     defaultEdgeColor: '#ccc',
                     edgeColor: 'default',
-                    minNodeSize: 2,
-                    maxNodeSize: 6,
+                    minNodeSize: 4,
+                    maxNodeSize: 10,
                     minEdgeSize: 1,
                     maxEdgeSize: 5,
                     labelSize: 'proportional',
@@ -94,7 +239,6 @@
                     drawEdgeLabels: true,
                     zoomMin: 0.02,
                     zoomMax: 2,
-                    nodeBorderSize: 1,
                     defaultEdgeType: 'arrow',
                     defaultEdgeArrowSize: 8,
                     edgeHoverSizeRatio: 2,
@@ -102,13 +246,12 @@
                     hideEdgesOnMove: true
                 }
             });
-
-            // Add nodes and edges
-            graphData.nodes.forEach(node => sigmaInstance.graph.addNode(node));
-            graphData.edges.forEach(edge => sigmaInstance.graph.addEdge(edge));
-
-            // Refresh the display
-            sigmaInstance.refresh();
+            
+            // Initial graph rendering
+            filterEdges();
+            
+            // Set up checkbox listeners
+            setupCheckboxListeners();
 
         } catch (error) {
             console.error('Error loading the graph data:', error);
