@@ -1,0 +1,6869 @@
+{
+  "attributes": {
+    "creator": "Gephi 0.10.1"
+  },
+  "options": {
+    "multi": false,
+    "allowSelfLoops": true,
+    "type": "directed"
+  },
+  "nodes": [
+    {
+      "key": "Switzerland",
+      "attributes": {
+        "x": 223.83449,
+        "y": -410.55914,
+        "size": 42.542374,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 48,
+        "Degree": 49,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 59.0,
+        "Weighted Degree": 61.0,
+        "Eccentricity": 5.0,
+        "closnesscentrality": 0.3924050632911392,
+        "harmonicclosnesscentrality": 0.5657258064516131,
+        "betweenesscentrality": 322.33333333333337,
+        "Authority": 0.031303827,
+        "Hub": 0.56150895,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 0,
+        "clustering": 0.004251700825989246,
+        "lat": 46.79895687,
+        "lng": 8.215353657
+      }
+    },
+    {
+      "key": "Belize",
+      "attributes": {
+        "x": 7.847637,
+        "y": -104.61264,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 17.20831869,
+        "lng": -88.69388853
+      }
+    },
+    {
+      "key": "Burundi",
+      "attributes": {
+        "x": -421.3723,
+        "y": 381.63593,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -3.357425336,
+        "lng": 29.87508269
+      }
+    },
+    {
+      "key": "Congo",
+      "attributes": {
+        "x": 282.9414,
+        "y": -354.41614,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -0.838879989,
+        "lng": 15.21833616
+      }
+    },
+    {
+      "key": "Georgia",
+      "attributes": {
+        "x": 102.20003,
+        "y": -217.55045,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 5.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 5.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.16180141,
+        "Hub": 0.0,
+        "pageranks": 0.003357554353558321,
+        "eigencentrality": 0.05267238959395386,
+        "modularity_class": 0,
+        "clustering": 0.25,
+        "lat": 42.16880078,
+        "lng": 43.50752633
+      }
+    },
+    {
+      "key": "Guinea",
+      "attributes": {
+        "x": -471.15125,
+        "y": 94.71704,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 1,
+        "Degree": 5,
+        "weighted indegree": 5.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 6.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 22.053571428571427,
+        "Authority": 0.17029701,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00805917191803434,
+        "eigencentrality": 0.15919414431483764,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 10.43464905,
+        "lng": -10.94306127
+      }
+    },
+    {
+      "key": "Kenya",
+      "attributes": {
+        "x": -23.56374,
+        "y": -349.43646,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 5.428571428571428,
+        "Authority": 0.091551825,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007796997513256908,
+        "eigencentrality": 0.136295515838733,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 0.550766077,
+        "lng": 37.82243991
+      }
+    },
+    {
+      "key": "Kyrgyzstan",
+      "attributes": {
+        "x": 72.34645,
+        "y": 233.63727,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.051752403,
+        "Hub": 0.0,
+        "pageranks": 0.002892090351301208,
+        "eigencentrality": 0.004492218039500329,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 41.46191869,
+        "lng": 74.54166944
+      }
+    },
+    {
+      "key": "Liberia",
+      "attributes": {
+        "x": -255.62318,
+        "y": 485.9276,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 0,
+        "Degree": 3,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.13049759,
+        "Hub": 0.0,
+        "pageranks": 0.0031542647560786397,
+        "eigencentrality": 0.027390846515604934,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 6.452232555,
+        "lng": -9.319863993
+      }
+    },
+    {
+      "key": "Mauritania",
+      "attributes": {
+        "x": 240.62038,
+        "y": 399.1399,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 15.053571428571427,
+        "Authority": 0.12327674,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007892755830282039,
+        "eigencentrality": 0.14078773387823332,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 20.2562182,
+        "lng": -10.34339792
+      }
+    },
+    {
+      "key": "Paraguay",
+      "attributes": {
+        "x": -241.93697,
+        "y": -373.8775,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -23.22751882,
+        "lng": -58.39842281
+      }
+    },
+    {
+      "key": "Sierra Leone",
+      "attributes": {
+        "x": -143.83406,
+        "y": -128.71579,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.08347732,
+        "Hub": 0.0,
+        "pageranks": 0.0029878486683263383,
+        "eigencentrality": 0.00898443607900067,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 8.563085843,
+        "lng": -11.79501558
+      }
+    },
+    {
+      "key": "Somalia",
+      "attributes": {
+        "x": 220.31734,
+        "y": 276.9903,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 4.748836792,
+        "lng": 45.70614438
+      }
+    },
+    {
+      "key": "South Sudan",
+      "attributes": {
+        "x": 54.885998,
+        "y": -208.31082,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 7.8626845,
+        "lng": 29.6949232
+      }
+    },
+    {
+      "key": "Eswatini",
+      "attributes": {
+        "x": -369.20993,
+        "y": -84.35071,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.051752403,
+        "Hub": 0.0,
+        "pageranks": 0.002892090351301208,
+        "eigencentrality": 0.004492218039500329,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -26.5179414,
+        "lng": 31.4629694
+      }
+    },
+    {
+      "key": "Tajikistan",
+      "attributes": {
+        "x": 507.7387,
+        "y": -457.02618,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.051752403,
+        "Hub": 0.0,
+        "pageranks": 0.002892090351301208,
+        "eigencentrality": 0.004492218039500329,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 38.52988566,
+        "lng": 71.01583437
+      }
+    },
+    {
+      "key": "Tanzania",
+      "attributes": {
+        "x": 181.95888,
+        "y": 315.9234,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 5.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 12.428571428571427,
+        "Authority": 0.1385721,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00796341360100921,
+        "eigencentrality": 0.15470192627533727,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": -6.275097481,
+        "lng": 34.81358642
+      }
+    },
+    {
+      "key": "Uganda",
+      "attributes": {
+        "x": 377.2652,
+        "y": -417.9518,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 5.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 12.428571428571427,
+        "Authority": 0.1385721,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00796341360100921,
+        "eigencentrality": 0.15470192627533727,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 1.275691193,
+        "lng": 32.36703985
+      }
+    },
+    {
+      "key": "Zambia",
+      "attributes": {
+        "x": -332.63373,
+        "y": -310.6197,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.051752403,
+        "Hub": 0.0,
+        "pageranks": 0.002892090351301208,
+        "eigencentrality": 0.004492218039500329,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -13.46011002,
+        "lng": 27.77421233
+      }
+    },
+    {
+      "key": "Zimbabwe",
+      "attributes": {
+        "x": 372.55243,
+        "y": -396.24927,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.051752403,
+        "Hub": 0.0,
+        "pageranks": 0.002892090351301208,
+        "eigencentrality": 0.004492218039500329,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -19.00253671,
+        "lng": 29.85188462
+      }
+    },
+    {
+      "key": "Burkina Faso",
+      "attributes": {
+        "x": -237.76598,
+        "y": 209.58795,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 1,
+        "Degree": 5,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 5.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 22.053571428571427,
+        "Authority": 0.17029701,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00805917191803434,
+        "eigencentrality": 0.15919414431483764,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 12.26955391,
+        "lng": -1.755527695
+      }
+    },
+    {
+      "key": "Cambodia",
+      "attributes": {
+        "x": 79.66383,
+        "y": -173.63412,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 12.428571428571427,
+        "Authority": 0.1385721,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00796341360100921,
+        "eigencentrality": 0.15470192627533727,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 12.71556247,
+        "lng": 104.9028042
+      }
+    },
+    {
+      "key": "Central African Republic",
+      "attributes": {
+        "x": 115.69307,
+        "y": 492.86127,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 6.6194073,
+        "lng": 20.9367017
+      }
+    },
+    {
+      "key": "Chad",
+      "attributes": {
+        "x": 339.29718,
+        "y": 136.84583,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 12.428571428571427,
+        "Authority": 0.1385721,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00796341360100921,
+        "eigencentrality": 0.15470192627533727,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 15.33307811,
+        "lng": 18.64625111
+      }
+    },
+    {
+      "key": "Djibouti",
+      "attributes": {
+        "x": -445.77927,
+        "y": 445.6861,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 12.428571428571427,
+        "Authority": 0.1385721,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00796341360100921,
+        "eigencentrality": 0.15470192627533727,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 11.75015588,
+        "lng": 42.56645365
+      }
+    },
+    {
+      "key": "Ecuador",
+      "attributes": {
+        "x": -180.59529,
+        "y": -188.9011,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 1,
+        "Degree": 5,
+        "weighted indegree": 5.0,
+        "weighted outdegree": 2.0,
+        "Weighted Degree": 7.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 12.428571428571427,
+        "Authority": 0.16987592,
+        "Hub": 0.0059804185,
+        "pageranks": 0.008166703198488891,
+        "eigencentrality": 0.17998346935368606,
+        "modularity_class": 2,
+        "clustering": 0.3333333432674408,
+        "lat": -1.426241474,
+        "lng": -78.77228231
+      }
+    },
+    {
+      "key": "Haiti",
+      "attributes": {
+        "x": -162.5225,
+        "y": 257.17157,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 18.93837144,
+        "lng": -72.69087406
+      }
+    },
+    {
+      "key": "Iraq",
+      "attributes": {
+        "x": 87.73787,
+        "y": -466.50406,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 12.428571428571427,
+        "Authority": 0.1385721,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00796341360100921,
+        "eigencentrality": 0.15470192627533727,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 33.03980378,
+        "lng": 43.74497702
+      }
+    },
+    {
+      "key": "Madagascar",
+      "attributes": {
+        "x": -169.41258,
+        "y": 214.29523,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -19.37316753,
+        "lng": 46.70599831
+      }
+    },
+    {
+      "key": "Malawi",
+      "attributes": {
+        "x": 427.75568,
+        "y": 479.78577,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -13.21722586,
+        "lng": 34.2899078
+      }
+    },
+    {
+      "key": "Mali",
+      "attributes": {
+        "x": -338.99142,
+        "y": 448.37,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 1,
+        "Degree": 5,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 5.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 22.053571428571427,
+        "Authority": 0.17029701,
+        "Hub": 0.0059804185,
+        "pageranks": 0.00805917191803434,
+        "eigencentrality": 0.15919414431483764,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 17.34416278,
+        "lng": -3.539079395
+      }
+    },
+    {
+      "key": "Marshall Islands",
+      "attributes": {
+        "x": 361.06152,
+        "y": 298.89886,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 7.8626845,
+        "lng": 29.6949232
+      }
+    },
+    {
+      "key": "Timor Leste",
+      "attributes": {
+        "x": 413.4898,
+        "y": -316.9234,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": -8.8742,
+        "lng": 125.7275
+      }
+    },
+    {
+      "key": "Togo",
+      "attributes": {
+        "x": 340.51068,
+        "y": -68.341,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 0,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.13049759,
+        "Hub": 0.0,
+        "pageranks": 0.0031542647560786397,
+        "eigencentrality": 0.027390846515604934,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 8.526788206,
+        "lng": 0.9622716
+      }
+    },
+    {
+      "key": "Trinidad and Tobago",
+      "attributes": {
+        "x": 183.21382,
+        "y": -452.43256,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.098772675,
+        "Hub": 0.0,
+        "pageranks": 0.003058506439053509,
+        "eigencentrality": 0.022898628476104608,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 10.46882986,
+        "lng": -61.25844984
+      }
+    },
+    {
+      "key": "Gambia",
+      "attributes": {
+        "x": 360.35632,
+        "y": 338.2096,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.17029701,
+        "Hub": 0.0,
+        "pageranks": 0.00805917191803434,
+        "eigencentrality": 0.15919414431483764,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 13.44972956,
+        "lng": -15.39758203
+      }
+    },
+    {
+      "key": "Ghana",
+      "attributes": {
+        "x": -144.92415,
+        "y": 42.56427,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.17029701,
+        "Hub": 0.0,
+        "pageranks": 0.00805917191803434,
+        "eigencentrality": 0.15919414431483764,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 7.953954724,
+        "lng": -1.216523831
+      }
+    },
+    {
+      "key": "Niger",
+      "attributes": {
+        "x": 293.28015,
+        "y": 371.00244,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.17029701,
+        "Hub": 0.0,
+        "pageranks": 0.00805917191803434,
+        "eigencentrality": 0.15919414431483764,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 17.41846377,
+        "lng": 9.386033997
+      }
+    },
+    {
+      "key": "Senegal",
+      "attributes": {
+        "x": -193.84865,
+        "y": 303.03363,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.17029701,
+        "Hub": 0.0,
+        "pageranks": 0.00805917191803434,
+        "eigencentrality": 0.15919414431483764,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 14.36778858,
+        "lng": -14.47130603
+      }
+    },
+    {
+      "key": "Serbia",
+      "attributes": {
+        "x": -391.1223,
+        "y": 226.48462,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.16180141,
+        "Hub": 0.0,
+        "pageranks": 0.003357554353558321,
+        "eigencentrality": 0.05267238959395386,
+        "modularity_class": 0,
+        "clustering": 0.25,
+        "lat": 44.22214762,
+        "lng": 20.78925244
+      }
+    },
+    {
+      "key": "Bosnia and Herzegovina",
+      "attributes": {
+        "x": -161.2454,
+        "y": -112.05914,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 5,
+        "outdegree": 1,
+        "Degree": 6,
+        "weighted indegree": 6.0,
+        "weighted outdegree": 2.0,
+        "Weighted Degree": 8.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 22.053571428571427,
+        "Authority": 0.20160083,
+        "Hub": 0.0059804185,
+        "pageranks": 0.008262461515514023,
+        "eigencentrality": 0.18447568739318634,
+        "modularity_class": 2,
+        "clustering": 0.30000001192092896,
+        "lat": 43.9165389,
+        "lng": 17.6721508
+      }
+    },
+    {
+      "key": "Albania",
+      "attributes": {
+        "x": -245.85239,
+        "y": 136.15881,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.16180141,
+        "Hub": 0.0,
+        "pageranks": 0.003357554353558321,
+        "eigencentrality": 0.05267238959395386,
+        "modularity_class": 0,
+        "clustering": 0.25,
+        "lat": 41.14248219,
+        "lng": 20.05381915
+      }
+    },
+    {
+      "key": "Montenegro",
+      "attributes": {
+        "x": 43.0948,
+        "y": 445.7439,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.16180141,
+        "Hub": 0.0,
+        "pageranks": 0.003357554353558321,
+        "eigencentrality": 0.05267238959395386,
+        "modularity_class": 0,
+        "clustering": 0.25,
+        "lat": 42.78581818,
+        "lng": 19.23850001
+      }
+    },
+    {
+      "key": "North Macedonia",
+      "attributes": {
+        "x": -116.241135,
+        "y": 216.48035,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 5,
+        "outdegree": 1,
+        "Degree": 6,
+        "weighted indegree": 5.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 6.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 22.053571428571427,
+        "Authority": 0.20160083,
+        "Hub": 0.0059804185,
+        "pageranks": 0.008262461515514023,
+        "eigencentrality": 0.18447568739318634,
+        "modularity_class": 0,
+        "clustering": 0.30000001192092896,
+        "lat": 41.59500493,
+        "lng": 21.68383041
+      }
+    },
+    {
+      "key": "Armenia",
+      "attributes": {
+        "x": -38.61446,
+        "y": -246.29324,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.16180141,
+        "Hub": 0.0,
+        "pageranks": 0.003357554353558321,
+        "eigencentrality": 0.05267238959395386,
+        "modularity_class": 0,
+        "clustering": 0.25,
+        "lat": 40.28813415,
+        "lng": 44.93230122
+      }
+    },
+    {
+      "key": "Azerbaijan",
+      "attributes": {
+        "x": -183.65239,
+        "y": -312.9048,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 0,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.13049759,
+        "Hub": 0.0,
+        "pageranks": 0.0031542647560786397,
+        "eigencentrality": 0.027390846515604934,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 40.28911896,
+        "lng": 47.54211129
+      }
+    },
+    {
+      "key": "Belarus",
+      "attributes": {
+        "x": 379.3662,
+        "y": -190.22821,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 0,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.13049759,
+        "Hub": 0.0,
+        "pageranks": 0.0031542647560786397,
+        "eigencentrality": 0.027390846515604934,
+        "modularity_class": 0,
+        "clustering": 0.1666666716337204,
+        "lat": 53.53188044,
+        "lng": 28.03356657
+      }
+    },
+    {
+      "key": "Ukraine",
+      "attributes": {
+        "x": 62.820934,
+        "y": -11.789031,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.16180141,
+        "Hub": 0.0,
+        "pageranks": 0.003357554353558321,
+        "eigencentrality": 0.05267238959395386,
+        "modularity_class": 0,
+        "clustering": 0.25,
+        "lat": 49.16007829,
+        "lng": 31.25530614
+      }
+    },
+    {
+      "key": "Turkey",
+      "attributes": {
+        "x": 306.5448,
+        "y": -132.3519,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 0,
+        "Degree": 4,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.16180141,
+        "Hub": 0.0,
+        "pageranks": 0.003357554353558321,
+        "eigencentrality": 0.05267238959395386,
+        "modularity_class": 0,
+        "clustering": 0.25,
+        "lat": 39.0610806,
+        "lng": 35.16723939
+      }
+    },
+    {
+      "key": "Nigeria",
+      "attributes": {
+        "x": -476.37756,
+        "y": -319.5689,
+        "size": 37.118645,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 40,
+        "Degree": 42,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 40.0,
+        "Weighted Degree": 42.0,
+        "Eccentricity": 5.0,
+        "closnesscentrality": 0.35942028985507246,
+        "harmonicclosnesscentrality": 0.5155913978494631,
+        "betweenesscentrality": 995.6666666666667,
+        "Authority": 0.07152434,
+        "Hub": 0.5101657,
+        "pageranks": 0.007838891776955403,
+        "eigencentrality": 0.136295515838733,
+        "modularity_class": 0,
+        "clustering": 0.02787456475198269,
+        "lat": 9.595314826,
+        "lng": 8.091239276
+      }
+    },
+    {
+      "key": "France",
+      "attributes": {
+        "x": 223.07423,
+        "y": 48.934387,
+        "size": 28.305084,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 27,
+        "Degree": 28,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 27.0,
+        "Weighted Degree": 29.0,
+        "Eccentricity": 5.0,
+        "closnesscentrality": 0.36046511627906974,
+        "harmonicclosnesscentrality": 0.4764784946236565,
+        "betweenesscentrality": 138.33333333333331,
+        "Authority": 0.031303827,
+        "Hub": 0.34421206,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 0,
+        "clustering": 0.038359787315130234,
+        "lat": 42.18010698,
+        "lng": -2.75522119
+      }
+    },
+    {
+      "key": "Benin",
+      "attributes": {
+        "x": -15.860188,
+        "y": 394.17413,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031724915,
+        "Hub": 0.0,
+        "pageranks": 0.0029339846149997024,
+        "eigencentrality": 0.004492218039500329,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 9.641216685,
+        "lng": 2.328740731
+      }
+    },
+    {
+      "key": "Cabo Verde",
+      "attributes": {
+        "x": 469.02393,
+        "y": 440.51068,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 9.625,
+        "Authority": 0.07152434,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007838891776955403,
+        "eigencentrality": 0.136295515838733,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 15.94515193,
+        "lng": -23.97565581
+      }
+    },
+    {
+      "key": "Guinea-Bissau",
+      "attributes": {
+        "x": -149.08705,
+        "y": -489.1634,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031724915,
+        "Hub": 0.0,
+        "pageranks": 0.0029339846149997024,
+        "eigencentrality": 0.004492218039500329,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 12.0269219,
+        "lng": -14.97751375
+      }
+    },
+    {
+      "key": "Republic of Ivory Coast",
+      "attributes": {
+        "x": -269.08716,
+        "y": 391.09625,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 9.625,
+        "Authority": 0.07152434,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007838891776955403,
+        "eigencentrality": 0.136295515838733,
+        "modularity_class": 0,
+        "clustering": 0.0,
+        "lat": 7.5455112,
+        "lng": -5.547545
+      }
+    },
+    {
+      "key": "United States of America",
+      "attributes": {
+        "x": -333.97473,
+        "y": -295.85193,
+        "size": 46.61017,
+        "color": "#cee3be",
+        "indegree": 49,
+        "outdegree": 54,
+        "Degree": 103,
+        "weighted indegree": 64.0,
+        "weighted outdegree": 68.0,
+        "Weighted Degree": 132.0,
+        "Eccentricity": 3.0,
+        "closnesscentrality": 0.6138613861386139,
+        "harmonicclosnesscentrality": 0.706989247311828,
+        "betweenesscentrality": 5947.333333333334,
+        "Authority": 0.06488679,
+        "Hub": 0.43181807,
+        "pageranks": 0.31123545517746193,
+        "eigencentrality": 1.0,
+        "modularity_class": 2,
+        "clustering": 0.015024458058178425,
+        "lat": 45.68811937,
+        "lng": -112.4961636
+      }
+    },
+    {
+      "key": "Afghanistan",
+      "attributes": {
+        "x": -59.282,
+        "y": 57.785522,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 33.83626707,
+        "lng": 66.00844769
+      }
+    },
+    {
+      "key": "Bangladesh",
+      "attributes": {
+        "x": -186.9597,
+        "y": -52.29364,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 23.84567772,
+        "lng": 90.24199984
+      }
+    },
+    {
+      "key": "Cameroon",
+      "attributes": {
+        "x": -455.82205,
+        "y": 121.53821,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 5.693058206,
+        "lng": 12.73698417
+      }
+    },
+    {
+      "key": "Denmark",
+      "attributes": {
+        "x": 485.0692,
+        "y": 103.46869,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.071103245,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007946423057409953,
+        "eigencentrality": 0.1570848408775815,
+        "modularity_class": 1,
+        "clustering": 1.0,
+        "lat": 55.96537746,
+        "lng": 10.0513897
+      }
+    },
+    {
+      "key": "Ethiopia",
+      "attributes": {
+        "x": 18.059155,
+        "y": -9.987304,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 8.622951736,
+        "lng": 39.60055103
+      }
+    },
+    {
+      "key": "Jordan",
+      "attributes": {
+        "x": 424.0346,
+        "y": -253.98444,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 31.24557614,
+        "lng": 36.77092318
+      }
+    },
+    {
+      "key": "Maldives",
+      "attributes": {
+        "x": -279.84314,
+        "y": -263.20236,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 3.827797929,
+        "lng": 73.30227072
+      }
+    },
+    {
+      "key": "Malta",
+      "attributes": {
+        "x": 159.91902,
+        "y": 448.69116,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.071103245,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007946423057409953,
+        "eigencentrality": 0.1570848408775815,
+        "modularity_class": 1,
+        "clustering": 1.0,
+        "lat": 35.92102699,
+        "lng": 14.40375403
+      }
+    },
+    {
+      "key": "Nepal",
+      "attributes": {
+        "x": -358.84814,
+        "y": 488.0091,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 28.24792222,
+        "lng": 83.91625337
+      }
+    },
+    {
+      "key": "Pakistan",
+      "attributes": {
+        "x": 479.76678,
+        "y": 360.26447,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 29.94849683,
+        "lng": 69.34134311
+      }
+    },
+    {
+      "key": "Panama",
+      "attributes": {
+        "x": 394.04816,
+        "y": -39.61432,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 2.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 8.514556966,
+        "lng": -80.12129495
+      }
+    },
+    {
+      "key": "Philippines",
+      "attributes": {
+        "x": -361.56836,
+        "y": -465.45618,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 2.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 11.76274981,
+        "lng": 122.8746824
+      }
+    },
+    {
+      "key": "Thailand",
+      "attributes": {
+        "x": -175.23418,
+        "y": 379.4273,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 15.1143998,
+        "lng": 101.0033334
+      }
+    },
+    {
+      "key": "Yemen",
+      "attributes": {
+        "x": 386.53992,
+        "y": 140.41736,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 15.90542129,
+        "lng": 47.59060195
+      }
+    },
+    {
+      "key": "Belgium",
+      "attributes": {
+        "x": -43.43288,
+        "y": 61.788635,
+        "size": 50.0,
+        "color": "#cee3be",
+        "indegree": 3,
+        "outdegree": 59,
+        "Degree": 62,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 91.0,
+        "Weighted Degree": 94.0,
+        "Eccentricity": 2.0,
+        "closnesscentrality": 0.656084656084656,
+        "harmonicclosnesscentrality": 0.7379032258064516,
+        "betweenesscentrality": 2592.3333333333335,
+        "Authority": 0.044577207,
+        "Hub": 0.33963805,
+        "pageranks": 0.014116435294563173,
+        "eigencentrality": 0.19520890465579468,
+        "modularity_class": 1,
+        "clustering": 0.013734658248722553,
+        "lat": 50.63746164,
+        "lng": 4.639960508
+      }
+    },
+    {
+      "key": "Austria",
+      "attributes": {
+        "x": 235.86653,
+        "y": 376.0791,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 47.58565692,
+        "lng": 14.13067287
+      }
+    },
+    {
+      "key": "Bulgaria",
+      "attributes": {
+        "x": -408.65668,
+        "y": -466.94934,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.071103245,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007946423057409953,
+        "eigencentrality": 0.15708484087758148,
+        "modularity_class": 1,
+        "clustering": 1.0,
+        "lat": 42.76852261,
+        "lng": 25.21751251
+      }
+    },
+    {
+      "key": "Croatia",
+      "attributes": {
+        "x": 508.29633,
+        "y": -361.25745,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.071103245,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007946423057409953,
+        "eigencentrality": 0.15708484087758148,
+        "modularity_class": 1,
+        "clustering": 1.0,
+        "lat": 45.06750475,
+        "lng": 16.39572478
+      }
+    },
+    {
+      "key": "Cyprus",
+      "attributes": {
+        "x": -217.60628,
+        "y": 170.15912,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 34.91521704,
+        "lng": 32.9899917
+      }
+    },
+    {
+      "key": "Czechia",
+      "attributes": {
+        "x": -378.22903,
+        "y": 259.92883,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 49.73244816,
+        "lng": 15.31410291
+      }
+    },
+    {
+      "key": "Estonia",
+      "attributes": {
+        "x": -433.8231,
+        "y": 7.231996,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 58.67101415,
+        "lng": 25.53579321
+      }
+    },
+    {
+      "key": "Finland",
+      "attributes": {
+        "x": -244.90337,
+        "y": -93.54047,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 64.49535907,
+        "lng": 26.27079507
+      }
+    },
+    {
+      "key": "Germany",
+      "attributes": {
+        "x": -205.38084,
+        "y": -475.89688,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 51.10636353,
+        "lng": 10.38149379
+      }
+    },
+    {
+      "key": "Greece",
+      "attributes": {
+        "x": 503.2166,
+        "y": -431.4303,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 39.05118118,
+        "lng": 22.97481893
+      }
+    },
+    {
+      "key": "Hungary",
+      "attributes": {
+        "x": -355.08643,
+        "y": -51.118805,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 47.16324369,
+        "lng": 19.39675927
+      }
+    },
+    {
+      "key": "Italy",
+      "attributes": {
+        "x": 385.52692,
+        "y": -90.90082,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 42.786434,
+        "lng": 12.07190709
+      }
+    },
+    {
+      "key": "Latvia",
+      "attributes": {
+        "x": 400.347,
+        "y": -151.02985,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 56.85181948,
+        "lng": 24.90862243
+      }
+    },
+    {
+      "key": "Lithuania",
+      "attributes": {
+        "x": 102.04176,
+        "y": -368.4947,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 55.32702364,
+        "lng": 23.88824902
+      }
+    },
+    {
+      "key": "Luxembourg",
+      "attributes": {
+        "x": 393.5421,
+        "y": -440.59134,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 49.76682428,
+        "lng": 6.071763967
+      }
+    },
+    {
+      "key": "Netherlands",
+      "attributes": {
+        "x": 245.69063,
+        "y": 439.48413,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 52.06979165,
+        "lng": 5.216814209
+      }
+    },
+    {
+      "key": "Poland",
+      "attributes": {
+        "x": -417.39468,
+        "y": 303.0515,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.071103245,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007946423057409953,
+        "eigencentrality": 0.15708484087758148,
+        "modularity_class": 1,
+        "clustering": 1.0,
+        "lat": 52.12477182,
+        "lng": 19.39432214
+      }
+    },
+    {
+      "key": "Portugal",
+      "attributes": {
+        "x": -226.24348,
+        "y": 107.27081,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 39.58714686,
+        "lng": -8.590837589
+      }
+    },
+    {
+      "key": "Romania",
+      "attributes": {
+        "x": 91.01955,
+        "y": -305.9696,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 45.8534641,
+        "lng": 24.97294186
+      }
+    },
+    {
+      "key": "Slovakia",
+      "attributes": {
+        "x": -82.55916,
+        "y": 157.2345,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 48.7049353,
+        "lng": 19.48038297
+      }
+    },
+    {
+      "key": "Slovenia",
+      "attributes": {
+        "x": 183.72664,
+        "y": -315.9063,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 46.11611906,
+        "lng": 14.80810398
+      }
+    },
+    {
+      "key": "Spain",
+      "attributes": {
+        "x": 365.76666,
+        "y": -349.83325,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 40.2272337,
+        "lng": -3.652637017
+      }
+    },
+    {
+      "key": "Sweden",
+      "attributes": {
+        "x": -425.30753,
+        "y": -89.15869,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 62.77709987,
+        "lng": 16.75446644
+      }
+    },
+    {
+      "key": "Australia",
+      "attributes": {
+        "x": 498.5099,
+        "y": -366.29382,
+        "size": 13.389831,
+        "color": "#cee3be",
+        "indegree": 5,
+        "outdegree": 5,
+        "Degree": 10,
+        "weighted indegree": 8.0,
+        "weighted outdegree": 7.0,
+        "Weighted Degree": 15.0,
+        "Eccentricity": 3.0,
+        "closnesscentrality": 0.4626865671641791,
+        "harmonicclosnesscentrality": 0.4865591397849462,
+        "betweenesscentrality": 35.5,
+        "Authority": 0.07804249,
+        "Hub": 0.025918387,
+        "pageranks": 0.01874904081015335,
+        "eigencentrality": 0.24650651755101652,
+        "modularity_class": 2,
+        "clustering": 0.800000011920929,
+        "lat": -25.73231054,
+        "lng": 134.4911188
+      }
+    },
+    {
+      "key": "Canada",
+      "attributes": {
+        "x": -334.6495,
+        "y": -162.46707,
+        "size": 13.389831,
+        "color": "#cee3be",
+        "indegree": 5,
+        "outdegree": 5,
+        "Degree": 10,
+        "weighted indegree": 8.0,
+        "weighted outdegree": 7.0,
+        "Weighted Degree": 15.0,
+        "Eccentricity": 3.0,
+        "closnesscentrality": 0.4626865671641791,
+        "harmonicclosnesscentrality": 0.4865591397849462,
+        "betweenesscentrality": 35.5,
+        "Authority": 0.07804249,
+        "Hub": 0.025918387,
+        "pageranks": 0.01874904081015335,
+        "eigencentrality": 0.24650651755101652,
+        "modularity_class": 2,
+        "clustering": 0.800000011920929,
+        "lat": 61.37635102,
+        "lng": -98.29371339
+      }
+    },
+    {
+      "key": "Moldova",
+      "attributes": {
+        "x": 162.57277,
+        "y": -134.37204,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 47.19510149,
+        "lng": 28.46139713
+      }
+    },
+    {
+      "key": "Norway",
+      "attributes": {
+        "x": 298.67126,
+        "y": 36.062622,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 68.79427292,
+        "lng": 15.40959916
+      }
+    },
+    {
+      "key": "Liechtenstein",
+      "attributes": {
+        "x": -12.808002,
+        "y": -468.73285,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 47.13820643,
+        "lng": 9.540900289
+      }
+    },
+    {
+      "key": "Colombia",
+      "attributes": {
+        "x": -119.79314,
+        "y": 457.85736,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.071103245,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007946423057409953,
+        "eigencentrality": 0.15708484087758148,
+        "modularity_class": 2,
+        "clustering": 1.0,
+        "lat": 3.909413049,
+        "lng": -73.0838421
+      }
+    },
+    {
+      "key": "Iceland",
+      "attributes": {
+        "x": -484.39975,
+        "y": -191.86584,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 64.99831582,
+        "lng": -18.59644593
+      }
+    },
+    {
+      "key": "Monaco",
+      "attributes": {
+        "x": 265.31073,
+        "y": -438.12988,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 43.73984619,
+        "lng": 7.398974325
+      }
+    },
+    {
+      "key": "Andorra",
+      "attributes": {
+        "x": 494.2351,
+        "y": 295.81854,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 42.54132653,
+        "lng": 1.560756241
+      }
+    },
+    {
+      "key": "Qatar",
+      "attributes": {
+        "x": -359.16537,
+        "y": -275.4972,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 25.31307459,
+        "lng": 51.18683129
+      }
+    },
+    {
+      "key": "Israel",
+      "attributes": {
+        "x": 505.3178,
+        "y": -474.43195,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 3.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.071103245,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007946423057409953,
+        "eigencentrality": 0.15708484087758148,
+        "modularity_class": 2,
+        "clustering": 1.0,
+        "lat": 31.44761212,
+        "lng": 34.99700919
+      }
+    },
+    {
+      "key": "San Marino",
+      "attributes": {
+        "x": -260.04382,
+        "y": 443.20892,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 43.93646619,
+        "lng": 12.44222256
+      }
+    },
+    {
+      "key": "Kosovo",
+      "attributes": {
+        "x": -245.40074,
+        "y": -8.533172,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 42.57288336,
+        "lng": 20.87374298
+      }
+    },
+    {
+      "key": "Mexico",
+      "attributes": {
+        "x": 120.39302,
+        "y": 463.68817,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 2.0,
+        "Weighted Degree": 5.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.071103245,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007946423057409953,
+        "eigencentrality": 0.15708484087758148,
+        "modularity_class": 2,
+        "clustering": 1.0,
+        "lat": 23.9491712,
+        "lng": -102.5303079
+      }
+    },
+    {
+      "key": "Chile",
+      "attributes": {
+        "x": 233.29878,
+        "y": 403.92792,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": -37.74360664,
+        "lng": -71.36437476
+      }
+    },
+    {
+      "key": "Republic of Korea",
+      "attributes": {
+        "x": -90.89113,
+        "y": 110.001526,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 35.8615124,
+        "lng": 127.096405
+      }
+    },
+    {
+      "key": "Japan",
+      "attributes": {
+        "x": -338.26413,
+        "y": 156.25269,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 37.55117739,
+        "lng": 137.9783476
+      }
+    },
+    {
+      "key": "United Arab Emirates",
+      "attributes": {
+        "x": 370.72113,
+        "y": -222.40256,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 23.90578306,
+        "lng": 54.30079559
+      }
+    },
+    {
+      "key": "Brazil",
+      "attributes": {
+        "x": -408.11667,
+        "y": 316.29962,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": -10.78085883,
+        "lng": -53.09248237
+      }
+    },
+    {
+      "key": "China",
+      "attributes": {
+        "x": -107.83107,
+        "y": -238.84485,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 36.55927333,
+        "lng": 103.8325925
+      }
+    },
+    {
+      "key": "Russia",
+      "attributes": {
+        "x": -202.95384,
+        "y": -192.1564,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 61.9668529,
+        "lng": 96.62758842
+      }
+    },
+    {
+      "key": "Costa Rica",
+      "attributes": {
+        "x": 492.80292,
+        "y": 332.31427,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 9.973436994,
+        "lng": -84.19352756
+      }
+    },
+    {
+      "key": "Peru",
+      "attributes": {
+        "x": -390.9034,
+        "y": -170.00388,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": -9.154388481,
+        "lng": -74.37806457
+      }
+    },
+    {
+      "key": "El Salvador",
+      "attributes": {
+        "x": -233.08922,
+        "y": 256.77466,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 3.0,
+        "Weighted Degree": 6.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 13.73584955,
+        "lng": -88.87103252
+      }
+    },
+    {
+      "key": "Honduras",
+      "attributes": {
+        "x": 177.17348,
+        "y": -21.90399,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 3.0,
+        "weighted outdegree": 3.0,
+        "Weighted Degree": 6.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 14.8210092,
+        "lng": -86.62522683
+      }
+    },
+    {
+      "key": "Dominican Republic",
+      "attributes": {
+        "x": 244.79195,
+        "y": -254.08557,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 2.0,
+        "weighted outdegree": 2.0,
+        "Weighted Degree": 4.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 18.7009047,
+        "lng": -70.1654584
+      }
+    },
+    {
+      "key": "Bahamas",
+      "attributes": {
+        "x": -283.5205,
+        "y": -24.231077,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 24.22398541,
+        "lng": -76.55149291
+      }
+    },
+    {
+      "key": "Guatemala",
+      "attributes": {
+        "x": -481.15222,
+        "y": 174.987,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 15.69601641,
+        "lng": -90.36015684
+      }
+    },
+    {
+      "key": "Jamaica",
+      "attributes": {
+        "x": -308.21332,
+        "y": 405.3932,
+        "size": 10.677966,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 1.0,
+        "Weighted Degree": 2.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38153846153846155,
+        "harmonicclosnesscentrality": 0.40456989247311875,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.039799422,
+        "Hub": 0.0059804185,
+        "pageranks": 0.007743133459930272,
+        "eigencentrality": 0.1318032977992327,
+        "modularity_class": 2,
+        "clustering": 0.0,
+        "lat": 18.15522639,
+        "lng": -77.31881047
+      }
+    },
+    {
+      "key": "United Kingdom",
+      "attributes": {
+        "x": 122.75514,
+        "y": -231.8758,
+        "size": 12.711864,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8,
+        "weighted indegree": 6.0,
+        "weighted outdegree": 6.0,
+        "Weighted Degree": 12.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38509316770186336,
+        "harmonicclosnesscentrality": 0.4166666666666672,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.046852384,
+        "Hub": 0.024684539,
+        "pageranks": 0.01792441871227665,
+        "eigencentrality": 0.22406834127837177,
+        "modularity_class": 2,
+        "clustering": 1.0,
+        "lat": 54.14704819,
+        "lng": -2.886951476
+      }
+    },
+    {
+      "key": "New Zealand",
+      "attributes": {
+        "x": -462.5115,
+        "y": 332.99896,
+        "size": 12.711864,
+        "color": "#cee3be",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8,
+        "weighted indegree": 4.0,
+        "weighted outdegree": 4.0,
+        "Weighted Degree": 8.0,
+        "Eccentricity": 4.0,
+        "closnesscentrality": 0.38509316770186336,
+        "harmonicclosnesscentrality": 0.4166666666666672,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.046852384,
+        "Hub": 0.024684539,
+        "pageranks": 0.01792441871227665,
+        "eigencentrality": 0.22406834127837177,
+        "modularity_class": 2,
+        "clustering": 1.0,
+        "lat": -41.82936354,
+        "lng": 171.4707044
+      }
+    },
+    {
+      "key": "Ireland",
+      "attributes": {
+        "x": 74.64229,
+        "y": -150.21576,
+        "size": 10.0,
+        "color": "#cee3be",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1,
+        "weighted indegree": 1.0,
+        "weighted outdegree": 0.0,
+        "Weighted Degree": 1.0,
+        "Eccentricity": 0.0,
+        "closnesscentrality": 0.0,
+        "harmonicclosnesscentrality": 0.0,
+        "betweenesscentrality": 0.0,
+        "Authority": 0.031303827,
+        "Hub": 0.0,
+        "pageranks": 0.0030415158954542536,
+        "eigencentrality": 0.025281543078348827,
+        "modularity_class": 1,
+        "clustering": 0.0,
+        "lat": 53.17822153,
+        "lng": -8.145044353
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "Switzerland",
+      "target": "Belize",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "1",
+      "source": "Switzerland",
+      "target": "Burundi",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "2",
+      "source": "Switzerland",
+      "target": "Congo",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "3",
+      "source": "Switzerland",
+      "target": "Georgia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "4",
+      "source": "Switzerland",
+      "target": "Guinea",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "5",
+      "source": "Switzerland",
+      "target": "Kenya",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PIRS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "6",
+      "source": "Switzerland",
+      "target": "Kyrgyzstan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PIRS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "7",
+      "source": "Switzerland",
+      "target": "Liberia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "8",
+      "source": "Switzerland",
+      "target": "Mauritania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PIRS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "9",
+      "source": "Switzerland",
+      "target": "Paraguay",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "10",
+      "source": "Switzerland",
+      "target": "Sierra Leone",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PIRS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "11",
+      "source": "Switzerland",
+      "target": "Somalia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "12",
+      "source": "Switzerland",
+      "target": "South Sudan",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "13",
+      "source": "Switzerland",
+      "target": "Eswatini",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PIRS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "14",
+      "source": "Switzerland",
+      "target": "Tajikistan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PIRS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "15",
+      "source": "Switzerland",
+      "target": "Tanzania",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "16",
+      "source": "Switzerland",
+      "target": "Uganda",
+      "attributes": {
+        "weight": 2.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "17",
+      "source": "Switzerland",
+      "target": "Zambia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PIRS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "18",
+      "source": "Switzerland",
+      "target": "Zimbabwe",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PIRS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "20",
+      "source": "Switzerland",
+      "target": "Burkina Faso",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "22",
+      "source": "Switzerland",
+      "target": "Cambodia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "23",
+      "source": "Switzerland",
+      "target": "Central African Republic",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "24",
+      "source": "Switzerland",
+      "target": "Chad",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "26",
+      "source": "Switzerland",
+      "target": "Djibouti",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "27",
+      "source": "Switzerland",
+      "target": "Ecuador",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "29",
+      "source": "Switzerland",
+      "target": "Haiti",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "30",
+      "source": "Switzerland",
+      "target": "Iraq",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "32",
+      "source": "Switzerland",
+      "target": "Madagascar",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "33",
+      "source": "Switzerland",
+      "target": "Malawi",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "34",
+      "source": "Switzerland",
+      "target": "Mali",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "35",
+      "source": "Switzerland",
+      "target": "Marshall Islands",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "40",
+      "source": "Switzerland",
+      "target": "Timor Leste",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "41",
+      "source": "Switzerland",
+      "target": "Togo",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "42",
+      "source": "Switzerland",
+      "target": "Trinidad and Tobago",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "44",
+      "source": "Switzerland",
+      "target": "Gambia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "45",
+      "source": "Switzerland",
+      "target": "Ghana",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "46",
+      "source": "Switzerland",
+      "target": "Niger",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "47",
+      "source": "Switzerland",
+      "target": "Senegal",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "48",
+      "source": "Switzerland",
+      "target": "Serbia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "49",
+      "source": "Switzerland",
+      "target": "Bosnia and Herzegovina",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "50",
+      "source": "Switzerland",
+      "target": "Albania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "51",
+      "source": "Switzerland",
+      "target": "Montenegro",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "52",
+      "source": "Switzerland",
+      "target": "North Macedonia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "53",
+      "source": "Switzerland",
+      "target": "Armenia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "54",
+      "source": "Switzerland",
+      "target": "Azerbaijan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "56",
+      "source": "Switzerland",
+      "target": "Belarus",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "57",
+      "source": "Switzerland",
+      "target": "Ukraine",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "58",
+      "source": "Switzerland",
+      "target": "Turkey",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "IOM"
+      }
+    },
+    {
+      "key": "59",
+      "source": "Nigeria",
+      "target": "Belize",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "60",
+      "source": "Nigeria",
+      "target": "Burkina Faso",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "61",
+      "source": "Nigeria",
+      "target": "Burundi",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "62",
+      "source": "Nigeria",
+      "target": "Cambodia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "63",
+      "source": "Nigeria",
+      "target": "Central African Republic",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "64",
+      "source": "Nigeria",
+      "target": "Chad",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "65",
+      "source": "Nigeria",
+      "target": "Congo",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "66",
+      "source": "Nigeria",
+      "target": "Djibouti",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "67",
+      "source": "Nigeria",
+      "target": "Ecuador",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "68",
+      "source": "Nigeria",
+      "target": "Guinea",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "69",
+      "source": "Nigeria",
+      "target": "Haiti",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "70",
+      "source": "Nigeria",
+      "target": "Iraq",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "71",
+      "source": "Nigeria",
+      "target": "Liberia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "72",
+      "source": "Nigeria",
+      "target": "Madagascar",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "73",
+      "source": "Nigeria",
+      "target": "Malawi",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "74",
+      "source": "Nigeria",
+      "target": "Mali",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "75",
+      "source": "Nigeria",
+      "target": "Marshall Islands",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "76",
+      "source": "Nigeria",
+      "target": "Paraguay",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "77",
+      "source": "Nigeria",
+      "target": "Somalia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "78",
+      "source": "Nigeria",
+      "target": "South Sudan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "79",
+      "source": "Nigeria",
+      "target": "Tanzania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "80",
+      "source": "Nigeria",
+      "target": "Timor Leste",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "81",
+      "source": "Nigeria",
+      "target": "Togo",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "82",
+      "source": "Nigeria",
+      "target": "Trinidad and Tobago",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "83",
+      "source": "Nigeria",
+      "target": "Uganda",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "84",
+      "source": "Nigeria",
+      "target": "Gambia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "85",
+      "source": "Nigeria",
+      "target": "Ghana",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "86",
+      "source": "Nigeria",
+      "target": "Niger",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "87",
+      "source": "Nigeria",
+      "target": "Senegal",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "88",
+      "source": "Nigeria",
+      "target": "Serbia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "89",
+      "source": "Nigeria",
+      "target": "Bosnia and Herzegovina",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "90",
+      "source": "Nigeria",
+      "target": "Albania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "91",
+      "source": "Nigeria",
+      "target": "Montenegro",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "92",
+      "source": "Nigeria",
+      "target": "North Macedonia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "93",
+      "source": "Nigeria",
+      "target": "Armenia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "94",
+      "source": "Nigeria",
+      "target": "Azerbaijan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "95",
+      "source": "Nigeria",
+      "target": "Georgia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "96",
+      "source": "Nigeria",
+      "target": "Belarus",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "97",
+      "source": "Nigeria",
+      "target": "Ukraine",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "98",
+      "source": "Nigeria",
+      "target": "Turkey",
+      "attributes": {
+        "weight": 1.0,
+        "database": "MIDAS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "ECOWAS"
+      }
+    },
+    {
+      "key": "99",
+      "source": "France",
+      "target": "Benin",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "100",
+      "source": "France",
+      "target": "Burkina Faso",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "101",
+      "source": "France",
+      "target": "Cabo Verde",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "102",
+      "source": "France",
+      "target": "Guinea-Bissau",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "103",
+      "source": "France",
+      "target": "Guinea",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "104",
+      "source": "France",
+      "target": "Republic of Ivory Coast",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "105",
+      "source": "France",
+      "target": "Liberia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "106",
+      "source": "France",
+      "target": "Mali",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "107",
+      "source": "France",
+      "target": "Mauritania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "108",
+      "source": "France",
+      "target": "Sierra Leone",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "109",
+      "source": "France",
+      "target": "Togo",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "110",
+      "source": "France",
+      "target": "Gambia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "111",
+      "source": "France",
+      "target": "Ghana",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "112",
+      "source": "France",
+      "target": "Niger",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "113",
+      "source": "France",
+      "target": "Nigeria",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "114",
+      "source": "France",
+      "target": "Senegal",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "115",
+      "source": "France",
+      "target": "Serbia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "116",
+      "source": "France",
+      "target": "Bosnia and Herzegovina",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "117",
+      "source": "France",
+      "target": "Albania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "118",
+      "source": "France",
+      "target": "Montenegro",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "119",
+      "source": "France",
+      "target": "North Macedonia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "120",
+      "source": "France",
+      "target": "Armenia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "121",
+      "source": "France",
+      "target": "Azerbaijan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "122",
+      "source": "France",
+      "target": "Georgia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "123",
+      "source": "France",
+      "target": "Belarus",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "124",
+      "source": "France",
+      "target": "Ukraine",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "125",
+      "source": "France",
+      "target": "Turkey",
+      "attributes": {
+        "weight": 1.0,
+        "database": "WAPIS",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "Interpol"
+      }
+    },
+    {
+      "key": "126",
+      "source": "United States of America",
+      "target": "Afghanistan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "127",
+      "source": "Afghanistan",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "128",
+      "source": "United States of America",
+      "target": "Bangladesh",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "129",
+      "source": "Bangladesh",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "130",
+      "source": "United States of America",
+      "target": "Bosnia and Herzegovina",
+      "attributes": {
+        "weight": 2.0,
+        "database": "BITMAP",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "131",
+      "source": "Bosnia and Herzegovina",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "BITMAP",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "132",
+      "source": "United States of America",
+      "target": "Burkina Faso",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "133",
+      "source": "Burkina Faso",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "134",
+      "source": "United States of America",
+      "target": "Cambodia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "135",
+      "source": "Cambodia",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "136",
+      "source": "United States of America",
+      "target": "Cameroon",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "137",
+      "source": "Cameroon",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "138",
+      "source": "United States of America",
+      "target": "Chad",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "139",
+      "source": "Chad",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "140",
+      "source": "United States of America",
+      "target": "Denmark",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "141",
+      "source": "Denmark",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "142",
+      "source": "United States of America",
+      "target": "Djibouti",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "143",
+      "source": "Djibouti",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "144",
+      "source": "United States of America",
+      "target": "Ethiopia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "145",
+      "source": "Ethiopia",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "146",
+      "source": "United States of America",
+      "target": "Guinea",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "147",
+      "source": "Guinea",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "148",
+      "source": "United States of America",
+      "target": "Iraq",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "149",
+      "source": "Iraq",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "150",
+      "source": "United States of America",
+      "target": "Republic of Ivory Coast",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "151",
+      "source": "Republic of Ivory Coast",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "152",
+      "source": "United States of America",
+      "target": "Jordan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "153",
+      "source": "Jordan",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "154",
+      "source": "United States of America",
+      "target": "Kenya",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "155",
+      "source": "Kenya",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "156",
+      "source": "United States of America",
+      "target": "North Macedonia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "157",
+      "source": "North Macedonia",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "158",
+      "source": "United States of America",
+      "target": "Maldives",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "159",
+      "source": "Maldives",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "160",
+      "source": "United States of America",
+      "target": "Mali",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "161",
+      "source": "Mali",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "162",
+      "source": "United States of America",
+      "target": "Malta",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "163",
+      "source": "Malta",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "164",
+      "source": "United States of America",
+      "target": "Mauritania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "165",
+      "source": "Mauritania",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "166",
+      "source": "United States of America",
+      "target": "Nepal",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "167",
+      "source": "Nepal",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "168",
+      "source": "United States of America",
+      "target": "Pakistan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "169",
+      "source": "Pakistan",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "170",
+      "source": "United States of America",
+      "target": "Panama",
+      "attributes": {
+        "weight": 2.0,
+        "database": "BITMAP",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "171",
+      "source": "Panama",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "BITMAP",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "172",
+      "source": "United States of America",
+      "target": "Philippines",
+      "attributes": {
+        "weight": 2.0,
+        "database": "BITMAP",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "173",
+      "source": "Philippines",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "BITMAP",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "174",
+      "source": "United States of America",
+      "target": "Tanzania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "175",
+      "source": "Tanzania",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "176",
+      "source": "United States of America",
+      "target": "Thailand",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "177",
+      "source": "Thailand",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "178",
+      "source": "United States of America",
+      "target": "Uganda",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "179",
+      "source": "Uganda",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "180",
+      "source": "United States of America",
+      "target": "Yemen",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "181",
+      "source": "Yemen",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "182",
+      "source": "United States of America",
+      "target": "Ghana",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "183",
+      "source": "United States of America",
+      "target": "Niger",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "184",
+      "source": "United States of America",
+      "target": "Nigeria",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "185",
+      "source": "United States of America",
+      "target": "Senegal",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "186",
+      "source": "United States of America",
+      "target": "Gambia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "PISCES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "187",
+      "source": "Belgium",
+      "target": "Austria",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "188",
+      "source": "Belgium",
+      "target": "Bulgaria",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "189",
+      "source": "Belgium",
+      "target": "Croatia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "190",
+      "source": "Belgium",
+      "target": "Cyprus",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "191",
+      "source": "Belgium",
+      "target": "Czechia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "192",
+      "source": "Belgium",
+      "target": "Denmark",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "193",
+      "source": "Belgium",
+      "target": "Estonia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "194",
+      "source": "Belgium",
+      "target": "Finland",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "195",
+      "source": "Belgium",
+      "target": "France",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "196",
+      "source": "Belgium",
+      "target": "Germany",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "197",
+      "source": "Belgium",
+      "target": "Greece",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "198",
+      "source": "Belgium",
+      "target": "Hungary",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "199",
+      "source": "Belgium",
+      "target": "Italy",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "200",
+      "source": "Belgium",
+      "target": "Latvia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "201",
+      "source": "Belgium",
+      "target": "Lithuania",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "202",
+      "source": "Belgium",
+      "target": "Luxembourg",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "203",
+      "source": "Belgium",
+      "target": "Malta",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "204",
+      "source": "Belgium",
+      "target": "Netherlands",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "205",
+      "source": "Belgium",
+      "target": "Poland",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "206",
+      "source": "Belgium",
+      "target": "Portugal",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "207",
+      "source": "Belgium",
+      "target": "Romania",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "208",
+      "source": "Belgium",
+      "target": "Slovakia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "209",
+      "source": "Belgium",
+      "target": "Slovenia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "210",
+      "source": "Belgium",
+      "target": "Spain",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "211",
+      "source": "Belgium",
+      "target": "Sweden",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "212",
+      "source": "Belgium",
+      "target": "Australia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "AP/PNR",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "213",
+      "source": "Belgium",
+      "target": "Canada",
+      "attributes": {
+        "weight": 2.0,
+        "database": "AP/PNR",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "214",
+      "source": "Belgium",
+      "target": "Georgia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "215",
+      "source": "Belgium",
+      "target": "Moldova",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "216",
+      "source": "Belgium",
+      "target": "Norway",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "217",
+      "source": "Belgium",
+      "target": "Serbia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "218",
+      "source": "Belgium",
+      "target": "Liechtenstein",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "219",
+      "source": "Belgium",
+      "target": "Ukraine",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "220",
+      "source": "Belgium",
+      "target": "Albania",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "221",
+      "source": "Belgium",
+      "target": "Bosnia and Herzegovina",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "222",
+      "source": "Belgium",
+      "target": "Colombia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "223",
+      "source": "Belgium",
+      "target": "Montenegro",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "224",
+      "source": "Belgium",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "AP/PNR",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "225",
+      "source": "Belgium",
+      "target": "Iceland",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "226",
+      "source": "Belgium",
+      "target": "North Macedonia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "227",
+      "source": "Belgium",
+      "target": "Switzerland",
+      "attributes": {
+        "weight": 2.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "228",
+      "source": "Belgium",
+      "target": "Monaco",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "229",
+      "source": "Belgium",
+      "target": "Andorra",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "230",
+      "source": "Belgium",
+      "target": "Qatar",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "231",
+      "source": "Belgium",
+      "target": "Israel",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "232",
+      "source": "Belgium",
+      "target": "San Marino",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "233",
+      "source": "Belgium",
+      "target": "Kosovo",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "234",
+      "source": "Belgium",
+      "target": "Mexico",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "235",
+      "source": "Belgium",
+      "target": "Armenia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "236",
+      "source": "Belgium",
+      "target": "Chile",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "237",
+      "source": "Belgium",
+      "target": "Republic of Korea",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "238",
+      "source": "Belgium",
+      "target": "Japan",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "239",
+      "source": "Belgium",
+      "target": "Ecuador",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "240",
+      "source": "Belgium",
+      "target": "Turkey",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "241",
+      "source": "Belgium",
+      "target": "United Arab Emirates",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "242",
+      "source": "Belgium",
+      "target": "Brazil",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "243",
+      "source": "Belgium",
+      "target": "China",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "244",
+      "source": "Belgium",
+      "target": "Russia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IES",
+        "source_type": "programmer",
+        "target_type": "switcher",
+        "organization": "European Union"
+      }
+    },
+    {
+      "key": "245",
+      "source": "United States of America",
+      "target": "Mexico",
+      "attributes": {
+        "weight": 2.0,
+        "database": "CHIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "246",
+      "source": "Mexico",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "CHIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "247",
+      "source": "United States of America",
+      "target": "Ecuador",
+      "attributes": {
+        "weight": 2.0,
+        "database": "CHIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "248",
+      "source": "Ecuador",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "CHIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "249",
+      "source": "United States of America",
+      "target": "Costa Rica",
+      "attributes": {
+        "weight": 1.0,
+        "database": "BITMAP",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "250",
+      "source": "Costa Rica",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "BITMAP",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "253",
+      "source": "United States of America",
+      "target": "Colombia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "BITMAP",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "254",
+      "source": "Colombia",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "BITMAP",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "255",
+      "source": "United States of America",
+      "target": "Peru",
+      "attributes": {
+        "weight": 1.0,
+        "database": "BITMAP",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "256",
+      "source": "Peru",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "BITMAP",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "257",
+      "source": "United States of America",
+      "target": "El Salvador",
+      "attributes": {
+        "weight": 3.0,
+        "database": "CHIP",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "258",
+      "source": "El Salvador",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 3.0,
+        "database": "CHIP",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "259",
+      "source": "United States of America",
+      "target": "Honduras",
+      "attributes": {
+        "weight": 3.0,
+        "database": "CHIP",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "260",
+      "source": "Honduras",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 3.0,
+        "database": "CHIP",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "263",
+      "source": "United States of America",
+      "target": "Dominican Republic",
+      "attributes": {
+        "weight": 2.0,
+        "database": "CHIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "264",
+      "source": "Dominican Republic",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "CHIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "271",
+      "source": "United States of America",
+      "target": "Bahamas",
+      "attributes": {
+        "weight": 1.0,
+        "database": "CHIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "272",
+      "source": "Bahamas",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "CHIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "273",
+      "source": "United States of America",
+      "target": "Cabo Verde",
+      "attributes": {
+        "weight": 1.0,
+        "database": "CHIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "274",
+      "source": "Cabo Verde",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "CHIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "279",
+      "source": "United States of America",
+      "target": "Guatemala",
+      "attributes": {
+        "weight": 1.0,
+        "database": "CHIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "280",
+      "source": "Guatemala",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "CHIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "283",
+      "source": "United States of America",
+      "target": "Jamaica",
+      "attributes": {
+        "weight": 1.0,
+        "database": "CHIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "284",
+      "source": "Jamaica",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "CHIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "285",
+      "source": "United States of America",
+      "target": "United Kingdom",
+      "attributes": {
+        "weight": 3.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "286",
+      "source": "United Kingdom",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 3.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "291",
+      "source": "United States of America",
+      "target": "Bulgaria",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IBIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "292",
+      "source": "Bulgaria",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IBIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "293",
+      "source": "United States of America",
+      "target": "Croatia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IBIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "294",
+      "source": "Croatia",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IBIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "295",
+      "source": "United States of America",
+      "target": "Israel",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IBIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "296",
+      "source": "Israel",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IBIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "297",
+      "source": "United States of America",
+      "target": "Poland",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IBIS",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "United States"
+      }
+    },
+    {
+      "key": "298",
+      "source": "Poland",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "IBIS",
+        "source_type": "user",
+        "target_type": "programmer",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "301",
+      "source": "Australia",
+      "target": "Canada",
+      "attributes": {
+        "weight": 2.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "302",
+      "source": "Australia",
+      "target": "Belgium",
+      "attributes": {
+        "weight": 1.0,
+        "database": "AP/PNR",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "303",
+      "source": "Australia",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "304",
+      "source": "Canada",
+      "target": "Australia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "305",
+      "source": "Canada",
+      "target": "Belgium",
+      "attributes": {
+        "weight": 1.0,
+        "database": "AP/PNR",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "306",
+      "source": "Canada",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 2.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "310",
+      "source": "United States of America",
+      "target": "Australia",
+      "attributes": {
+        "weight": 2.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "311",
+      "source": "United States of America",
+      "target": "Canada",
+      "attributes": {
+        "weight": 2.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "312",
+      "source": "United States of America",
+      "target": "Belgium",
+      "attributes": {
+        "weight": 1.0,
+        "database": "AP/PNR",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "314",
+      "source": "Australia",
+      "target": "New Zealand",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "315",
+      "source": "Australia",
+      "target": "United Kingdom",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "318",
+      "source": "Canada",
+      "target": "New Zealand",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "319",
+      "source": "Canada",
+      "target": "United Kingdom",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "321",
+      "source": "New Zealand",
+      "target": "Australia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "322",
+      "source": "New Zealand",
+      "target": "Canada",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "323",
+      "source": "New Zealand",
+      "target": "United Kingdom",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "324",
+      "source": "New Zealand",
+      "target": "United States of America",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "325",
+      "source": "United Kingdom",
+      "target": "Australia",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "326",
+      "source": "United Kingdom",
+      "target": "Canada",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "327",
+      "source": "United Kingdom",
+      "target": "New Zealand",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "331",
+      "source": "United States of America",
+      "target": "New Zealand",
+      "attributes": {
+        "weight": 1.0,
+        "database": "M5",
+        "source_type": "user",
+        "target_type": "user",
+        "organization": "null"
+      }
+    },
+    {
+      "key": "362",
+      "source": "Belgium",
+      "target": "Ireland",
+      "attributes": {
+        "weight": 1.0,
+        "database": "EU DATABASES",
+        "source_type": "programmer",
+        "target_type": "user",
+        "organization": "European Union"
+      }
+    }
+  ]
+}

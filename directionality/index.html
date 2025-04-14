@@ -62,22 +62,22 @@
         <div class="legend-item">
             <input type="checkbox" id="programmer-to-user" class="legend-checkbox" checked data-source="programmer" data-target="user">
             <div class="legend-color" style="background-color: #ffee00;"></div>
-            <label for="programmer-to-user" class="legend-label">Programmer → User</label>
+            <label for="programmer-to-user" class="legend-label">Programmers &#8594; Members</label>
         </div>
         <div class="legend-item">
             <input type="checkbox" id="switcher-to-programmer" class="legend-checkbox" checked data-source="switcher" data-target="programmer">
             <div class="legend-color" style="background-color: #ad5a00;"></div>
-            <label for="switcher-to-programmer" class="legend-label">Switcher → Programmer</label>
+            <label for="switcher-to-programmer" class="legend-label">Programmers &#8594; External users</label>
         </div>
         <div class="legend-item">
             <input type="checkbox" id="user-to-programmer" class="legend-checkbox" checked data-source="user" data-target="programmer">
             <div class="legend-color" style="background-color: #ff9e00;"></div>
-            <label for="user-to-programmer" class="legend-label">User → Programmer</label>
+            <label for="user-to-programmer" class="legend-label">Programmers &#8596; Members</label>
         </div>
         <div class="legend-item">
             <input type="checkbox" id="user-to-user" class="legend-checkbox" checked data-source="user" data-target="user">
             <div class="legend-color" style="background-color: #ba02d6;"></div>
-            <label for="user-to-user" class="legend-label">User → User</label>
+            <label for="user-to-user" class="legend-label">Members &#8596; Members</label>
         </div>
         <div class="legend-item">
             <input type="checkbox" id="toggle-all" class="legend-checkbox" checked>
@@ -108,13 +108,12 @@
     // Filter edges based on checkbox state
     function filterEdges() {
         if (!sigmaInstance || !rawData) return;
-        
-        // Clear current edges
+
         sigmaInstance.graph.clear();
         
         const width = 1000, height = 800;
-        
-        // Add all nodes back
+
+        // Add all nodes
         rawData.nodes.forEach(node => {
             const coords = latLngToCanvas(node.attributes.lat, node.attributes.lng, width, height);
             sigmaInstance.graph.addNode({
@@ -128,32 +127,77 @@
                 borderColor: "#000",
             });
         });
-        
-        // Add only filtered edges
+
+        // Detect bidirectional relationships
+        const bidirectionalSet = new Set();
+        const edgeMap = new Map();
+
         rawData.edges.forEach(edge => {
-            let edgeType = "";
-            let color;
-            
-            if (edge.attributes.source_type === "programmer" && edge.attributes.target_type === "user") {
-                color = "#ffee00";
-                edgeType = "programmer-to-user";
-            } else if (edge.attributes.source_type === "switcher" && edge.attributes.target_type === "programmer") {
-                color = "#ad5a00";
-                edgeType = "switcher-to-programmer";
-            } else if (edge.attributes.source_type === "user" && edge.attributes.target_type === "programmer") {
-                color = "#ff9e00";
-                edgeType = "user-to-programmer";
-            } else if (edge.attributes.source_type === "user" && edge.attributes.target_type === "user") {
-                color = "#ba02d6";
-                edgeType = "user-to-user";
-            } else {
-                color = "#000000";
-                edgeType = "other-edges";
+            const key = `${edge.source}->${edge.target}`;
+            edgeMap.set(key, edge);
+        });
+
+        rawData.edges.forEach(edge => {
+            const reverseKey = `${edge.target}->${edge.source}`;
+            const reverseEdge = edgeMap.get(reverseKey);
+
+            if (
+                reverseEdge &&
+                edge.attributes.database === reverseEdge.attributes.database &&
+                edge.attributes.source_type === "programmer" &&
+                edge.attributes.target_type === "user" &&
+                reverseEdge.attributes.source_type === "user" &&
+                reverseEdge.attributes.target_type === "programmer"
+            ) {
+                // Mark as bidirectional
+                const keyToRemove = `${edge.source}->${edge.target}`;
+                bidirectionalSet.add(keyToRemove);
+                bidirectionalSet.add(reverseKey); // keep only one (e.g., the user → programmer one)
             }
-            
-            // Check if this edge type should be displayed
+        });
+
+        rawData.edges.forEach(edge => {
+            const edgeType = (() => {
+                if (edge.attributes.source_type === "programmer" && edge.attributes.target_type === "user")
+                    return "programmer-to-user";
+                if (edge.attributes.source_type === "programmer" && edge.attributes.target_type === "switcher")
+                    return "switcher-to-programmer";
+                if (edge.attributes.source_type === "user" && edge.attributes.target_type === "programmer")
+                    return "user-to-programmer";
+                if (edge.attributes.source_type === "user" && edge.attributes.target_type === "user")
+                    return "user-to-user";
+                return "other-edges";
+            })();
+
             const checkbox = document.getElementById(edgeType);
-            if (checkbox && checkbox.checked) {
+            const isBidirectional = bidirectionalSet.has(`${edge.source}->${edge.target}`);
+
+            // Add only the "user → programmer" edge if it's bidirectional
+            if (isBidirectional && edge.attributes.source_type === "user") {
+                const checkbox = document.getElementById("user-to-programmer");
+                if (checkbox && checkbox.checked) {
+                    sigmaInstance.graph.addEdge({
+                        id: edge.key,
+                        source: edge.source,
+                        target: edge.target,
+                        color: "#ff9e00", // or a custom color for bidirectional
+                        size: edge.attributes.weight || 1,
+                        type: "doubleArrow" // Assuming sigma.renderers.customEdgeShapes supports it
+                    });
+                }
+            }
+
+            // Add non-bidirectional edges normally
+            else if (!isBidirectional && checkbox && checkbox.checked) {
+                let color;
+                switch (edgeType) {
+                    case "programmer-to-user": color = "#ffee00"; break;
+                    case "switcher-to-programmer": color = "#ad5a00"; break;
+                    // case "user-to-programmer": color = "#ff9e00"; break;
+                    case "user-to-user": color = "#ba02d6"; break;
+                    default: color = "#000000";
+                }
+
                 sigmaInstance.graph.addEdge({
                     id: edge.key,
                     source: edge.source,
@@ -164,11 +208,10 @@
                 });
             }
         });
-        
-        // Refresh the graph
+
         sigmaInstance.refresh();
     }
-    
+
     // Add event listeners to checkboxes
     function setupCheckboxListeners() {
         const checkboxes = document.querySelectorAll('.legend-checkbox');
@@ -211,15 +254,63 @@
         });
     }
 
+    
     // Load and initialize the graph
     async function initializeGraph() {
         try {
-            const response = await fetch('graph-v2.json');
+            const response = await fetch('graph-v3.json');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
             rawData = await response.json();
-            
+
+            sigma.canvas.edges.def = sigma.canvas.edges.def || {};
+            sigma.canvas.edges.def.doubleArrow = function(edge, source, target, context, settings) {
+                const color = edge.color || settings('defaultEdgeColor');
+                const size = edge.size || 1;
+
+                const dx = target.x - source.x;
+                const dy = target.y - source.y;
+                const angle = Math.atan2(dy, dx);
+
+                context.strokeStyle = color;
+                context.lineWidth = size;
+                context.beginPath();
+                context.moveTo(source.x, source.y);
+                context.lineTo(target.x, target.y);
+                context.stroke();
+
+                const arrowSize = 6 + size;
+                context.fillStyle = color;
+
+                // Arrow at target
+                context.beginPath();
+                context.moveTo(target.x, target.y);
+                context.lineTo(
+                    target.x - arrowSize * Math.cos(angle - Math.PI / 6),
+                    target.y - arrowSize * Math.sin(angle - Math.PI / 6)
+                );
+                context.lineTo(
+                    target.x - arrowSize * Math.cos(angle + Math.PI / 6),
+                    target.y - arrowSize * Math.sin(angle + Math.PI / 6)
+                );
+                context.closePath();
+                context.fill();
+
+                // Arrow at source
+                context.beginPath();
+                context.moveTo(source.x, source.y);
+                context.lineTo(
+                    source.x + arrowSize * Math.cos(angle - Math.PI / 6),
+                    source.y + arrowSize * Math.sin(angle - Math.PI / 6)
+                );
+                context.lineTo(
+                    source.x + arrowSize * Math.cos(angle + Math.PI / 6),
+                    source.y + arrowSize * Math.sin(angle + Math.PI / 6)
+                );
+                context.closePath();
+                context.fill();
+            };
             // Initialize sigma instance
             sigmaInstance = new sigma({
                 container: 'container',
@@ -243,7 +334,8 @@
                     defaultEdgeArrowSize: 8,
                     edgeHoverSizeRatio: 2,
                     batchEdgesDrawing: true,
-                    hideEdgesOnMove: true
+                    hideEdgesOnMove: true,
+                    customEdgeShapes: true
                 }
             });
             
