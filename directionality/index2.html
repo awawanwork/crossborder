@@ -65,21 +65,21 @@
             <label for="programmer-to-user" class="legend-label">Programmers &#8594; Members</label>
         </div>
         <div class="legend-item">
-            <input type="checkbox" id="programmer-to-switcher" class="legend-checkbox" checked data-source="programmer" data-target="switcher">
+            <input type="checkbox" id="switcher-to-programmer" class="legend-checkbox" checked data-source="switcher" data-target="programmer">
             <div class="legend-color" style="background-color: #ad5a00;"></div>
-            <label for="programmer-to-switcher" class="legend-label">Programmers &#8594; External users</label>
+            <label for="switcher-to-programmer" class="legend-label">Programmers &#8594; External users</label>
         </div>
         <div class="legend-title">Symmetrical</div>
         <div class="legend-item">
-            <input type="checkbox" id="user-to-programmer" class="legend-checkbox" checked data-source="user" data-target="user">
+            <input type="checkbox" id="user-to-programmer" class="legend-checkbox" checked data-source="user" data-target="programmer">
             <div class="legend-color" style="background-color: #ff9e00;"></div>
-            <label for="user-to-programmer" class="legend-label">Programmers &#8596; Members</label>
+            <label for="user-to-programmer" class="legend-label">Members &#8596; Members</label>
         </div>
         
         <div class="legend-item">
-            <input type="checkbox" id="programmer-to-programmer" class="legend-checkbox" checked data-source="programmer" data-target="programmer">
+            <input type="checkbox" id="user-to-user" class="legend-checkbox" checked data-source="user" data-target="user">
             <div class="legend-color" style="background-color: #ba02d6;"></div>
-            <label for="programmer-to-programmer" class="legend-label">Programmers &#8596; Programmers</label>
+            <label for="user-to-user" class="legend-label">Programmers &#8596; Programmers</label>
         </div>
         <div class="legend-item">
             <input type="checkbox" id="toggle-all" class="legend-checkbox" checked>
@@ -112,10 +112,6 @@
     function filterEdges() {
         if (!sigmaInstance || !rawData) return;
 
-        const checkboxes = document.querySelectorAll(
-            '.legend-checkbox[data-source="user"][data-target="programmer"], .legend-checkbox[data-source="user"][data-target="user"]'
-        );
-
         sigmaInstance.graph.clear();
         
         const width = 1000, height = 800;
@@ -135,65 +131,90 @@
             });
         });
 
-        // Map to track all edge pairs for bidirectional detection
+        // Detect bidirectional relationships
+        const bidirectionalSet = new Set();
         const edgeMap = new Map();
-        
-        // First pass: Add non-bidirectional edges
+
         rawData.edges.forEach(edge => {
             const key = `${edge.source}->${edge.target}`;
-            // const reverseKey = `${edge.target}->${edge.source}`;
-            
-            const edgeType = (() => {
+            edgeMap.set(key, edge);
+        });
 
+        rawData.edges.forEach(edge => {
+            const reverseKey = `${edge.target}->${edge.source}`;
+            const reverseEdge = edgeMap.get(reverseKey);
+
+            if (
+                reverseEdge &&
+                edge.attributes.database === reverseEdge.attributes.database &&
+                edge.attributes.source_type === "programmer" &&
+                edge.attributes.target_type === "user" &&
+                reverseEdge.attributes.source_type === "user" &&
+                reverseEdge.attributes.target_type === "programmer"
+            ) {
+                // Mark as bidirectional
+                // const keyToRemove = `${edge.source}->${edge.target}`;
+                // bidirectionalSet.add(keyToRemove);
+                bidirectionalSet.add(reverseKey);
+            }
+        });
+
+        rawData.edges.forEach(edge => {
+            const edgeType = (() => {
                 if (edge.attributes.source_type === "programmer" && edge.attributes.target_type === "user")
                     return "programmer-to-user";
                 if (edge.attributes.source_type === "programmer" && edge.attributes.target_type === "switcher")
-                    return "programmer-to-switcher";
-                if (edge.attributes.source_type === "programmer" && edge.attributes.target_type === "programmer")
-                    return "programmer-to-programmer";
-                if ((edge.attributes.source_type === "user" && edge.attributes.target_type === "programmer") ||(edge.attributes.source_type === "user" && edge.attributes.target_type === "user"))
+                    return "switcher-to-programmer";
+                if (edge.attributes.source_type === "user" && edge.attributes.target_type === "programmer")
                     return "user-to-programmer";
+                if (edge.attributes.source_type === "user" && edge.attributes.target_type === "user")
+                    return "user-to-user";
                 return "other-edges";
             })();
 
             const checkbox = document.getElementById(edgeType);
-            
-            if (checkbox && checkbox.checked) {
+            const isBidirectional = bidirectionalSet.has(`${edge.source}->${edge.target}`);
+
+           if (!isBidirectional && checkbox && checkbox.checked) {
                 let color;
                 switch (edgeType) {
                     case "programmer-to-user": color = "#ffee00"; break;
-                    case "programmer-to-switcher": color = "#ad5a00"; break;
-                    case "programmer-to-programmer": color = "#ba02d6"; break;
-                    case "user-to-programmer": color = "#ff9e00"; break;
+                    case "switcher-to-programmer": color = "#ad5a00"; break;
+                    // case "user-to-programmer": color = "#ff9e00"; break;
+                    case "user-to-user": color = "#ba02d6"; break;
                     default: color = "#000000";
                 }
 
-                if((edge.attributes.source_type === 'user' && edge.attributes.target_type === 'programmer') || (edge.attributes.source_type === 'user' && edge.attributes.target_type === 'user')){
+                sigmaInstance.graph.addEdge({
+                    id: edge.key,
+                    source: edge.source,
+                    target: edge.target,
+                    label: edge.attributes.database,
+                    color: color,
+                    size: edge.attributes.weight || 1,
+                    type: 'arrow'
+                });
+            }
+             // Add only the "user → programmer" edge if it's bidirectional
+            else if (isBidirectional && edge.attributes.source_type === "user") {
+                const checkbox = document.getElementById("user-to-programmer");
+                if (checkbox && checkbox.checked) {
                     sigmaInstance.graph.addEdge({
                         id: edge.key,
                         source: edge.source,
                         target: edge.target,
                         label: edge.attributes.database,
-                        color: color,
+                        color: "#ff9e00", // or a custom color for bidirectional
                         size: edge.attributes.weight || 1,
-                        type: 'curvedArrow'
-                    });
-                }else{
-                    sigmaInstance.graph.addEdge({
-                        id: edge.key,
-                        source: edge.source,
-                        target: edge.target,
-                        label: edge.attributes.database,
-                        color: color,
-                        size: edge.attributes.weight || 1,
-                        type: 'arrow'
+                        type: "double-arrow",
                     });
                 }
-                
-                
             }
+
+            // Add non-bidirectional edges normally
+            
         });
-        
+
         sigmaInstance.refresh();
     }
 
@@ -238,11 +259,12 @@
             });
         });
     }
+
     
     // Load and initialize the graph
     async function initializeGraph() {
         try {
-            const response = await fetch('graph-v4.json');
+            const response = await fetch('graph-v3.json');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -251,10 +273,7 @@
             // Initialize sigma instance
             sigmaInstance = new sigma({
                 container: 'container',
-                renderer: {
-                    container: document.getElementById('container'),
-                    type: 'canvas'
-                },
+                type: 'canvas',
                 settings: {
                     defaultNodeColor: '#666',
                     defaultEdgeColor: '#ccc',
@@ -268,24 +287,21 @@
                     labelThreshold: 5,
                     drawEdges: true,
                     drawEdgeLabels: true,
-                    
-                    // Edge label settings
-                    edgeLabelSize: 'proportional',
-                    edgeLabelSizeRatio: 1.5,
+
+                    renderEdgeLabels: true,
+                    edgeLabelSize: 'fixed',
+                    edgeLabelSizeRatio: 2,
                     defaultEdgeLabelColor: '#000',
-                    edgeLabelThreshold: 5,
-                    
-                    // Arrow settings
                     defaultEdgeType: 'arrow',
                     defaultEdgeArrowSize: 8,
-                    
-                    // Important for curved arrows
-                    sideMargin: 30,
-                    
+                    edgeHoverSizeRatio: 2,
+                    customEdgeShapes: true,
+
                     zoomMin: 0.02,
                     zoomMax: 2,
                     batchEdgesDrawing: true,
                     hideEdgesOnMove: true,
+                    
                 }
             });
             
@@ -294,9 +310,6 @@
             
             // Set up checkbox listeners
             setupCheckboxListeners();
-            
-            // Force a redraw to ensure edge labels appear
-            setTimeout(() => sigmaInstance.refresh(), 100);
 
         } catch (error) {
             console.error('Error loading the graph data:', error);
