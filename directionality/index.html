@@ -175,7 +175,7 @@
                         target: edge.target,
                         label: edge.attributes.database,
                         color: color,
-                        size: edge.attributes.weight || 1,
+                        size: 0.5,
                         type: 'curvedArrow'
                     });
                 }else{
@@ -261,7 +261,7 @@
                     edgeColor: 'default',
                     minNodeSize: 4,
                     maxNodeSize: 10,
-                    minEdgeSize: 1,
+                    minEdgeSize: 0.5,
                     maxEdgeSize: 5,
                     labelSize: 'proportional',
                     labelSizeRatio: 1.5,
@@ -271,9 +271,9 @@
                     
                     // Edge label settings
                     edgeLabelSize: 'proportional',
-                    edgeLabelSizeRatio: 1.5,
+                    edgeLabelSizeRatio: 1,
                     defaultEdgeLabelColor: '#000',
-                    edgeLabelThreshold: 5,
+                    edgeLabelThreshold: 6,
                     
                     // Arrow settings
                     defaultEdgeType: 'arrow',
