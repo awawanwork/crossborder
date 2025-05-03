@@ -73,7 +73,7 @@
         <div class="legend-item">
             <input type="checkbox" id="user-to-programmer" class="legend-checkbox" checked data-source="user" data-target="user">
             <div class="legend-color" style="background-color: #ff9e00;"></div>
-            <label for="user-to-programmer" class="legend-label">Programmers &#8596; Members</label>
+            <label for="user-to-programmer" class="legend-label">Members &#8596; Members</label>
         </div>
         
         <div class="legend-item">
@@ -138,10 +138,17 @@
         // Map to track all edge pairs for bidirectional detection
         const edgeMap = new Map();
         
+        const allWeights = rawData.edges.map(e => e.attributes.weight);
+        const globalMin = Math.min(...allWeights);
+        const globalMax = Math.max(...allWeights);
+
         // First pass: Add non-bidirectional edges
         rawData.edges.forEach(edge => {
             const key = `${edge.source}->${edge.target}`;
             // const reverseKey = `${edge.target}->${edge.source}`;
+            
+            const norm = (edge.attributes.weight - globalMin) / (globalMax - globalMin || 1);
+            edge.attributes.normalizedWeight = 0.2 + norm * 5;
             
             const edgeType = (() => {
 
@@ -151,7 +158,7 @@
                     return "programmer-to-switcher";
                 if (edge.attributes.source_type === "programmer" && edge.attributes.target_type === "programmer")
                     return "programmer-to-programmer";
-                if ((edge.attributes.source_type === "user" && edge.attributes.target_type === "programmer") ||(edge.attributes.source_type === "user" && edge.attributes.target_type === "user"))
+                if ((edge.attributes.source_type === "user" && edge.attributes.target_type === "user") || (edge.attributes.source_type === "user" && edge.attributes.target_type === "programmer"))
                     return "user-to-programmer";
                 return "other-edges";
             })();
@@ -168,14 +175,14 @@
                     default: color = "#000000";
                 }
 
-                if((edge.attributes.source_type === 'user' && edge.attributes.target_type === 'programmer') || (edge.attributes.source_type === 'user' && edge.attributes.target_type === 'user')){
+                if((edge.attributes.source_type === 'user' && edge.attributes.target_type === 'user')  || (edge.attributes.source_type === "user" && edge.attributes.target_type === "programmer")){
                     sigmaInstance.graph.addEdge({
                         id: edge.key,
                         source: edge.source,
                         target: edge.target,
                         label: edge.attributes.database,
                         color: color,
-                        size: 0.5,
+                        size: edge.attributes.normalizedWeight,
                         type: 'curvedArrow'
                     });
                 }else{
@@ -185,7 +192,7 @@
                         target: edge.target,
                         label: edge.attributes.database,
                         color: color,
-                        size: edge.attributes.weight || 1,
+                        size: edge.attributes.normalizedWeight,
                         type: 'arrow'
                     });
                 }
@@ -193,6 +200,20 @@
                 
             }
         });
+
+        // Convert NodeList to Array and filter out "toggle-all"
+        const activeTypes = Array.from(checkboxes)
+            .filter(cb => cb.id !== 'toggle-all' && cb.checked)
+            .map(cb => cb.id);
+        console.log(activeTypes)
+        // Adjust edge size if only 'user-to-programmer' is selected
+        if (activeTypes.length === 1 && activeTypes[0] === 'user-to-programmer') {
+            sigmaInstance.settings('minEdgeSize', 1);
+            sigmaInstance.settings('maxEdgeSize', 1);
+        } else {
+            sigmaInstance.settings('minEdgeSize', 0.4);
+            sigmaInstance.settings('maxEdgeSize', 6);
+        }
         
         sigmaInstance.refresh();
     }
@@ -261,8 +282,8 @@
                     edgeColor: 'default',
                     minNodeSize: 4,
                     maxNodeSize: 10,
-                    minEdgeSize: 0.5,
-                    maxEdgeSize: 5,
+                    minEdgeSize: 0.2,
+                    maxEdgeSize: 6,
                     labelSize: 'proportional',
                     labelSizeRatio: 1.5,
                     labelThreshold: 5,
@@ -271,9 +292,10 @@
                     
                     // Edge label settings
                     edgeLabelSize: 'proportional',
-                    edgeLabelSizeRatio: 1,
+                    edgeLabelSize: 1,
+                    edgeLabelSizeRatio: 1.5,
                     defaultEdgeLabelColor: '#000',
-                    edgeLabelThreshold: 6,
+                    edgeLabelThreshold: 5,
                     
                     // Arrow settings
                     defaultEdgeType: 'arrow',
